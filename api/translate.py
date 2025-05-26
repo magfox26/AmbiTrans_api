@@ -60,13 +60,11 @@ STANDARD_MODELS = [
 STREAM_MODELS = ['qvq-max']
 
 def encode_image(image_path):
-    """将图片编码为base64格式"""
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
 
 # ========================== API调用函数 ==========================
 def call_api_standard(text, image, model_name):
-    """标准调用方式"""
     base64_image = encode_image(image)
     response = openai.chat.completions.create(
         model=model_name,
@@ -86,7 +84,6 @@ def call_api_standard(text, image, model_name):
     return response.choices[0].message.content
 
 def call_api_stream(text, image, model_name):
-    """流式调用方式"""
     reasoning_content = ""
     answer_content = ""
     is_answering = False
@@ -125,7 +122,6 @@ def call_api_stream(text, image, model_name):
     return {"reasoning": reasoning_content, "answer": answer_content}
 
 def call_api(text, image, model_name):
-    """根据模型类型选择调用方式"""
     if model_name in STREAM_MODELS:
         return call_api_stream(text, image, model_name)
     elif model_name in STANDARD_MODELS:
@@ -135,14 +131,12 @@ def call_api(text, image, model_name):
 
 # ========================== 数据处理函数 ==========================
 def get_image_folder(filename):
-    """根据文件名获取对应的图片文件夹"""
     if 'mma' in filename.lower():
         return IMAGE_FOLDER_MMA
     else:
         return IMAGE_FOLDER_3AM
 
 def process_file(file_path, model_names, today):
-    """处理单个数据文件"""
     print(f"Processing file: {file_path}")
 
     with open(file_path, 'r', encoding='utf-8') as f:

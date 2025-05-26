@@ -23,7 +23,7 @@ openai.api_key = API_KEY
 openai.base_url = BASE_URL
 
 # 数据文件路径
-DATA_DIR = '/mnt/workspace/xintong/pjh/JP_AmbiTrans/data/final/'
+DATA_DIR = '/mnt/workspace/xintong/lyx/AmbiTrans_api/data/'
 AMBI_NORMAL_FILE = os.path.join(DATA_DIR, 'ambi_normal_test.json')
 SP_FILE = os.path.join(DATA_DIR, 'sp_test.json')
 MMA_FILE = os.path.join(DATA_DIR, 'mma_test.json')

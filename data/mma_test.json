@@ -1,0 +1,2792 @@
+[
+    {
+        "idx": 2,
+        "image": "Untitled 2.png",
+        "en": "He touched the sculpture with the glove.",
+        "standard_zh": "他戴着手套触摸了雕塑。",
+        "standard_resolved_ambiguity": "协调歧义：图片显示触摸雕塑的人就是戴手套的人。",
+        "group": 1,
+        "sense": [
+            {
+                "term": "with the glove",
+                "type": "syntactic",
+                "gold_interpretation": "戴着手套"
+            }
+        ]
+    },
+    {
+        "idx": 3,
+        "image": "Untitled 3.png",
+        "en": "He touched the sculpture with the glove.",
+        "standard_zh": "他触摸了戴着手套的雕塑。",
+        "standard_resolved_ambiguity": "协调歧义：根据图像，手套是在雕塑上，明确了手套属于雕塑。",
+        "group": 1,
+        "sense": [
+            {
+                "term": "with the glove",
+                "type": "syntactic",
+                "gold_interpretation": "手套在雕塑上（手套属于雕塑）"
+            }
+        ]
+    },
+    {
+        "idx": 12,
+        "image": "Untitled 12.png",
+        "en": "She saw the cat under the tree.",
+        "standard_zh": "她在树下看到了那只猫。",
+        "standard_resolved_ambiguity": "消解了句中关于“谁在树下”的歧义，图片显示是‘她’在树下。",
+        "group": 6,
+        "sense": [
+            {
+                "term": "under the tree",
+                "type": "syntactic",
+                "gold_interpretation": "她在树下"
+            }
+        ]
+    },
+    {
+        "idx": 13,
+        "image": "Untitled 13.png",
+        "en": "She saw the cat under the tree.",
+        "standard_zh": "她看到了树下的猫。",
+        "standard_resolved_ambiguity": "消解了关于‘谁在树下’的歧义，图片明显显示是猫在树下。",
+        "group": 6,
+        "sense": [
+            {
+                "term": "under the tree",
+                "type": "syntactic",
+                "gold_interpretation": "猫在树下"
+            }
+        ]
+    },
+    {
+        "idx": 14,
+        "image": "Untitled 20.png",
+        "en": "She saw the man with the telescope.",
+        "standard_zh": "她用望远镜看到了那名男子。",
+        "standard_resolved_ambiguity": "句子的协调歧义被图片消解，图中显示望远镜在“她”的手中。",
+        "group": 7,
+        "sense": [
+            {
+                "term": "with the telescope",
+                "type": "syntactic",
+                "gold_interpretation": "她用望远镜看到了那名男子（with the telescope修饰的是she，而不是the man）"
+            }
+        ]
+    },
+    {
+        "idx": 15,
+        "image": "Untitled 21.png",
+        "en": "She saw the man with the telescope.",
+        "standard_zh": "她看到了拿着望远镜的男人。",
+        "standard_resolved_ambiguity": "协调歧义：图片显示是男人拿着望远镜。",
+        "group": 7,
+        "sense": [
+            {
+                "term": "with the telescope",
+                "type": "syntactic",
+                "gold_interpretation": "男人拿着望远镜"
+            }
+        ]
+    },
+    {
+        "idx": 20,
+        "image": "Untitled 26.png",
+        "en": "The lit lamp and chandelier",
+        "standard_zh": "点亮的灯和吊灯",
+        "standard_resolved_ambiguity": "协调歧义。通过图像确认吊灯也是点亮的状态。",
+        "group": 10,
+        "sense": [
+            {
+                "term": "lit lamp and chandelier",
+                "type": "syntactic",
+                "gold_interpretation": "点亮的灯和吊灯（lit修饰灯和吊灯）"
+            }
+        ]
+    },
+    {
+        "idx": 21,
+        "image": "Untitled 27.png",
+        "en": "The lit lamp and chandelier",
+        "standard_zh": "点亮的灯和未点亮的吊灯",
+        "standard_resolved_ambiguity": "协调歧义：根据图片可见吊灯未点亮。",
+        "group": 10,
+        "sense": [
+            {
+                "term": "lit lamp and chandelier",
+                "type": "syntactic",
+                "gold_interpretation": "点亮的灯和未点亮的吊灯（lit仅修饰lamp，不包括chandelier）"
+            }
+        ]
+    },
+    {
+        "idx": 22,
+        "image": "Untitled 28.png",
+        "en": "The smiling boy and girl",
+        "standard_zh": "微笑的男孩和女孩",
+        "standard_resolved_ambiguity": "通过图片消解了并列歧义，确认‘女孩’也是微笑的。",
+        "group": 11,
+        "sense": [
+            {
+                "term": "smiling boy and girl",
+                "type": "syntactic",
+                "gold_interpretation": "微笑的男孩和女孩（smiling修饰男孩和女孩）"
+            }
+        ]
+    },
+    {
+        "idx": 23,
+        "image": "Untitled 29.png",
+        "en": "The smiling boy and girl",
+        "standard_zh": "微笑的男孩和哭泣的女孩",
+        "standard_resolved_ambiguity": "图片显示女孩并未微笑，而是哭泣，消解了‘男孩和女孩都微笑’或‘仅男孩微笑’的歧义。",
+        "group": 11,
+        "sense": [
+            {
+                "term": "smiling boy and girl",
+                "type": "syntactic",
+                "gold_interpretation": "微笑的男孩和哭泣的女孩"
+            }
+        ]
+    },
+    {
+        "idx": 24,
+        "image": "Untitled 36.png",
+        "en": "The brand new pen and note",
+        "standard_zh": "全新的笔和笔记本",
+        "standard_resolved_ambiguity": "协调歧义：图片显示笔和笔记本都是全新的。",
+        "group": 12,
+        "sense": [
+            {
+                "term": "brand new pen and note",
+                "type": "syntactic",
+                "gold_interpretation": "全新的笔和笔记本（brand new修饰笔和笔记本）"
+            }
+        ]
+    },
+    {
+        "idx": 25,
+        "image": "Untitled 37.png",
+        "en": "The brand new pen and note",
+        "standard_zh": "全新的笔和用过的笔记本",
+        "standard_resolved_ambiguity": "协调歧义：图片显示笔是全新的，而笔记本已经被使用过。",
+        "group": 12,
+        "sense": [
+            {
+                "term": "brand new pen and note",
+                "type": "syntactic",
+                "gold_interpretation": "全新的笔和用过的笔记本（brand new修饰笔，不包括笔记本）"
+            }
+        ]
+    },
+    {
+        "idx": 26,
+        "image": "Untitled 40.png",
+        "en": "The long essays and reports were assigned by the teacher.",
+        "standard_zh": "老师布置了需要撰写详细论文和报告的作业。",
+        "standard_resolved_ambiguity": "协调歧义：根据图片信息，明确了“论文”和“报告”都要求篇幅较长（不少于10页）。",
+        "group": 13,
+        "sense": [
+            {
+                "term": "long essays and reports",
+                "type": "syntactic",
+                "gold_interpretation": "篇幅较长的论文和报告（不少于10页）"
+            }
+        ]
+    },
+    {
+        "idx": 27,
+        "image": "Untitled 41.png",
+        "en": "The long essays and reports were assigned by the teacher.",
+        "standard_zh": "老师布置了长篇论文和短篇报告。",
+        "standard_resolved_ambiguity": "协调歧义：通过图中说明，报告要求不少于10页（短篇），而论文限制为不超过1页（长篇），因此消除了模糊。",
+        "group": 13,
+        "sense": [
+            {
+                "term": "long essays and reports",
+                "type": "syntactic",
+                "gold_interpretation": "长篇论文和短篇报告（长篇指报告，短篇指论文）"
+            }
+        ]
+    },
+    {
+        "idx": 28,
+        "image": "Untitled 42.png",
+        "en": "The tall tower and building",
+        "standard_zh": "高塔和高楼",
+        "standard_resolved_ambiguity": "协调歧义，通过图片确定塔和楼都很高，即超过了10米。",
+        "group": 14,
+        "sense": [
+            {
+                "term": "tall tower and building",
+                "type": "syntactic",
+                "gold_interpretation": "高塔和高楼（tall修饰塔和楼）"
+            }
+        ]
+    },
+    {
+        "idx": 29,
+        "image": "Untitled 43.png",
+        "en": "The tall tower and building",
+        "standard_zh": "高塔和矮建筑。",
+        "standard_resolved_ambiguity": "协调歧义，通过图像确认塔很高而建筑很矮。",
+        "group": 14,
+        "sense": [
+            {
+                "term": "tall tower and building",
+                "type": "syntactic",
+                "gold_interpretation": "高塔和矮建筑（tall修饰塔，不包括建筑）"
+            }
+        ]
+    },
+    {
+        "idx": 30,
+        "image": "Untitled 44.png",
+        "en": "Alice and Bob are married",
+        "standard_zh": "爱丽丝和鲍勃结婚了。",
+        "standard_resolved_ambiguity": "附加歧义。图像显示爱丽丝与鲍勃作为一对夫妻站在一起，互相面对，因此明确表明是爱丽丝与鲍勃结婚。",
+        "group": 15,
+        "sense": [
+            {
+                "term": "Alice and Bob are married",
+                "type": "syntactic",
+                "gold_interpretation": "爱丽丝和鲍勃结婚了"
+            }
+        ]
+    },
+    {
+        "idx": 31,
+        "image": "Untitled 45.png",
+        "en": "Alice and Bob are married",
+        "standard_zh": "Alice和Bob各自与他人结婚了。",
+        "standard_resolved_ambiguity": "附加歧义：图像显示Alice和Bob分别站在不同的新婚对象旁边，并未相互结婚。",
+        "group": 15,
+        "sense": [
+            {
+                "term": "Alice and Bob are married",
+                "type": "syntactic",
+                "gold_interpretation": "Alice和Bob各自与他人结婚了"
+            }
+        ]
+    },
+    {
+        "idx": 32,
+        "image": "Untitled 46.png",
+        "en": "Max and Lucy are dancing",
+        "standard_zh": "马克斯和露西正在一起跳舞。",
+        "standard_resolved_ambiguity": "消解了搭配歧义。通过图片确认马克斯和露西是在一起跳舞，而不是各自与不同的对象跳舞。",
+        "group": 16,
+        "sense": [
+            {
+                "term": "Max and Lucy are dancing",
+                "type": "syntactic",
+                "gold_interpretation": "马克斯和露西在一起跳舞"
+            }
+        ]
+    },
+    {
+        "idx": 33,
+        "image": "Untitled 47.png",
+        "en": "Max and Lucy are dancing",
+        "standard_zh": "马克斯和露西正在和他们各自的舞伴跳舞。",
+        "standard_resolved_ambiguity": "消解了依附歧义。根据图像可见，马克斯和一位舞伴跳舞，而露西与另一位男伴跳舞。",
+        "group": 16,
+        "sense": [
+            {
+                "term": "Max and Lucy are dancing",
+                "type": "syntactic",
+                "gold_interpretation": "马克斯和露西正在和他们各自的舞伴跳舞"
+            }
+        ]
+    },
+    {
+        "idx": 34,
+        "image": "Untitled 48.png",
+        "en": "The children are building a sandcastle",
+        "standard_zh": "孩子们正在一起建造一座沙堡。",
+        "standard_resolved_ambiguity": "消解了附加歧义。从图片中可以看出，孩子们确实是在共同建造同一座沙堡，而不是分别建造各自的。",
+        "group": 17,
+        "sense": [
+            {
+                "term": "building a sandcastle",
+                "type": "syntactic",
+                "gold_interpretation": "孩子们共同建造同一座沙堡"
+            }
+        ]
+    },
+    {
+        "idx": 35,
+        "image": "Untitled 49.png",
+        "en": "The children are building a sandcastle",
+        "standard_zh": "孩子们分别在堆建沙堡。",
+        "standard_resolved_ambiguity": "消解了附加歧义，通过图片确认每个孩子分别在建造各自的沙堡，而不是合作建造同一个沙堡。",
+        "group": 17,
+        "sense": [
+            {
+                "term": "building a sandcastle",
+                "type": "syntactic",
+                "gold_interpretation": "每个孩子分别在建造各自的沙堡"
+            }
+        ]
+    },
+    {
+        "idx": 40,
+        "image": "Untitled 54.png",
+        "en": "Chris and Pat are playing chess",
+        "standard_zh": "克里斯和帕特正在下棋。",
+        "standard_resolved_ambiguity": "附加词组歧义，通过图片确认‘克里斯和帕特是在互相对弈’。",
+        "group": 20,
+        "sense": [
+            {
+                "term": "are playing chess",
+                "type": "syntactic",
+                "gold_interpretation": "克里斯和帕特是在互相下棋"
+            }
+        ]
+    },
+    {
+        "idx": 41,
+        "image": "Untitled 55.png",
+        "en": "Chris and Pat are playing chess",
+        "standard_zh": "Chris和Pat正在分别与他人下国际象棋。",
+        "standard_resolved_ambiguity": "句中介词短语附着的歧义，通过图片可以确认Chris和Pat在分别与他人下棋，而不是互相对弈。",
+        "group": 20,
+        "sense": [
+            {
+                "term": "are playing chess",
+                "type": "syntactic",
+                "gold_interpretation": "Chris和Pat在分别与他人下棋"
+            }
+        ]
+    },
+    {
+        "idx": 46,
+        "image": "Untitled 60.png",
+        "en": "The laptop and phone are charging on the desk.",
+        "standard_zh": "笔记本电脑和手机正在同一张桌子上充电。",
+        "standard_resolved_ambiguity": "附着歧义，通过图像确认笔记本电脑和手机确实是并排在同一张桌子上充电，而不是两个设备在两张不同桌子上充电。",
+        "group": 23,
+        "sense": [
+            {
+                "term": "on the desk",
+                "type": "syntactic",
+                "gold_interpretation": "笔记本电脑和手机在同一张桌子上充电"
+            }
+        ]
+    },
+    {
+        "idx": 47,
+        "image": "Untitled 61.png",
+        "en": "The laptop and phone are charging on the desk.",
+        "standard_zh": "笔记本电脑和手机分别在不同的桌子上充电。",
+        "standard_resolved_ambiguity": "这属于附加关系的歧义，通过图片可以看出笔记本电脑和手机在不同的桌子上充电。",
+        "group": 23,
+        "sense": [
+            {
+                "term": "on the desk",
+                "type": "syntactic",
+                "gold_interpretation": "笔记本电脑和手机在不同的桌子上充电"
+            }
+        ]
+    },
+    {
+        "idx": 52,
+        "image": "Untitled 72.png",
+        "en": "He's putting all his eggs in one basket",
+        "standard_zh": "他把所有的鸡蛋都放进了同一个篮子里。",
+        "standard_resolved_ambiguity": "成语歧义：通过图片确认是字面意思，而非隐喻意义。",
+        "group": 26,
+        "sense": [
+            {
+                "term": "putting all his eggs in one basket",
+                "type": "cultural/background",
+                "gold_interpretation": "把所有的鸡蛋都放进了同一个篮子里（字面意思）"
+            }
+        ]
+    },
+    {
+        "idx": 53,
+        "image": "Untitled 73.png",
+        "en": "He's putting all his eggs in one basket",
+        "standard_zh": "他把所有的赌注都押在了特斯拉股票上。",
+        "standard_resolved_ambiguity": "成语歧义，通过图片文字表明这是在指代将一切风险集中在一个投资方向上，即特斯拉股票。",
+        "group": 26,
+        "sense": [
+            {
+                "term": "putting all his eggs in one basket",
+                "type": "cultural/background",
+                "gold_interpretation": "把所有的赌注都押在特斯拉股票上"
+            }
+        ]
+    },
+    {
+        "idx": 54,
+        "image": "Untitled 74.png",
+        "en": "He's burning the midnight oil",
+        "standard_zh": "他正在半夜点燃油。",
+        "standard_resolved_ambiguity": "成语歧义通过图片消解。根据图片中的火焰和锅，确定为该句的字面含义。",
+        "group": 27,
+        "sense": [
+            {
+                "term": "burning the midnight oil",
+                "type": "cultural/background",
+                "gold_interpretation": "半夜点燃油"
+            }
+        ]
+    },
+    {
+        "idx": 55,
+        "image": "Untitled 75.png",
+        "en": "He's burning the midnight oil",
+        "standard_zh": "他在挑灯夜战。",
+        "standard_resolved_ambiguity": "成语歧义：通过图片中显示的深夜办公场景，明确该短语的延伸含义为加班到深夜。",
+        "group": 27,
+        "sense": [
+            {
+                "term": "burning the midnight oil",
+                "type": "cultural/background",
+                "gold_interpretation": "挑灯夜战"
+            }
+        ]
+    },
+    {
+        "idx": 58,
+        "image": "Untitled 78.png",
+        "en": "The person's hitting the books",
+        "standard_zh": "这个人在用力打书。",
+        "standard_resolved_ambiguity": "成语歧义：通过图像确认，句子意指字面意思，即书正在被用力击打。",
+        "group": 29,
+        "sense": [
+            {
+                "term": "hitting the books",
+                "type": "cultural/background",
+                "gold_interpretation": "用力打书"
+            }
+        ]
+    },
+    {
+        "idx": 59,
+        "image": "Untitled 79.png",
+        "en": "The person's hitting the books",
+        "standard_zh": "这个人在努力学习。",
+        "standard_resolved_ambiguity": "成语歧义，通过图片中的教科书和学习场景确认了“hitting the books”是指学习。",
+        "group": 29,
+        "sense": [
+            {
+                "term": "hitting the books",
+                "type": "cultural/background",
+                "gold_interpretation": "努力学习"
+            }
+        ]
+    },
+    {
+        "idx": 62,
+        "image": "Untitled 82.png",
+        "en": "The event is right around the corner",
+        "standard_zh": "活动就在附近的拐角处。",
+        "standard_resolved_ambiguity": "成语歧义，图片显示这是字面意思，不是比喻即将发生。",
+        "group": 31,
+        "sense": [
+            {
+                "term": "right around the corner",
+                "type": "cultural/background",
+                "gold_interpretation": "就在附近的拐角处"
+            }
+        ]
+    },
+    {
+        "idx": 63,
+        "image": "Untitled 83.png",
+        "en": "The event is right around the corner",
+        "standard_zh": "考试即将来临。",
+        "standard_resolved_ambiguity": "成语歧义，图片显示日历上明确标注了考试时间，表明事件即将发生。",
+        "group": 31,
+        "sense": [
+            {
+                "term": "right around the corner",
+                "type": "cultural/background",
+                "gold_interpretation": "即将来临"
+            }
+        ]
+    },
+    {
+        "idx": 66,
+        "image": "Untitled 86.png",
+        "en": "She's in hot water",
+        "standard_zh": "她正在泡温泉。",
+        "standard_resolved_ambiguity": "成语歧义，通过图片明确她在高温水中，使意思为字面含义，而非‘陷入困境’的比喻。",
+        "group": 33,
+        "sense": [
+            {
+                "term": "in hot water",
+                "type": "cultural/background",
+                "gold_interpretation": "在高温水中（字面含义）"
+            }
+        ]
+    },
+    {
+        "idx": 67,
+        "image": "Untitled 87.png",
+        "en": "She's in hot water",
+        "standard_zh": "她陷入了麻烦。",
+        "standard_resolved_ambiguity": "成语歧义；图片中显示多人用手指指向她，表明她正面临困境或受到指责。",
+        "group": 33,
+        "sense": [
+            {
+                "term": "in hot water",
+                "type": "cultural/background",
+                "gold_interpretation": "陷入麻烦"
+            }
+        ]
+    },
+    {
+        "idx": 68,
+        "image": "Untitled 88.png",
+        "en": "He's hitting the nail on the head",
+        "standard_zh": "他正用锤子敲钉子的头部。",
+        "standard_resolved_ambiguity": "成语歧义：通过图像确定是字面意思，即描述用锤子敲钉子的场景。",
+        "group": 34,
+        "sense": [
+            {
+                "term": "hitting the nail on the head",
+                "type": "cultural/background",
+                "gold_interpretation": "用锤子敲钉子的头部"
+            }
+        ]
+    },
+    {
+        "idx": 69,
+        "image": "Untitled 89.png",
+        "en": "He's hitting the nail on the head",
+        "standard_zh": "他精准地说中了要点。",
+        "standard_resolved_ambiguity": "成语歧义。图片无实际动作，仅为谜题，支持其为扩展含义（准确表达）。",
+        "group": 34,
+        "sense": [
+            {
+                "term": "hitting the nail on the head",
+                "type": "cultural/background",
+                "gold_interpretation": "精准地说中了要点"
+            }
+        ]
+    },
+    {
+        "idx": 70,
+        "image": "Untitled 90.png",
+        "en": "She's on a slippery slope",
+        "standard_zh": "她正在滑坡上行走。",
+        "standard_resolved_ambiguity": "成语歧义；图片显示她确实站在一个光滑的斜坡上，而非隐喻性的困境。",
+        "group": 35,
+        "sense": [
+            {
+                "term": "slippery slope",
+                "type": "cultural/background",
+                "gold_interpretation": "光滑的斜坡"
+            }
+        ]
+    },
+    {
+        "idx": 71,
+        "image": "Untitled 91.png",
+        "en": "She's on a slippery slope",
+        "standard_zh": "她正在走下坡路。",
+        "standard_resolved_ambiguity": "成语歧义，通过图片中的文字组合和表达主题明确表明这是关于任务拖延和恶性循环的境地，揭示了隐喻性用法。",
+        "group": 35,
+        "sense": [
+            {
+                "term": "slippery slope",
+                "type": "pragmatic",
+                "gold_interpretation": "任务拖延和恶性循环的境地"
+            }
+        ]
+    },
+    {
+        "idx": 72,
+        "image": "Untitled 92.png",
+        "en": "It is hard",
+        "standard_zh": "它很坚硬。",
+        "standard_resolved_ambiguity": "形容词歧义，通过图片明确“hard”表示物体坚硬、结实、不容易被破坏。",
+        "group": 36,
+        "sense": [
+            {
+                "term": "hard",
+                "type": "lexical",
+                "gold_interpretation": "坚硬"
+            }
+        ]
+    },
+    {
+        "idx": 73,
+        "image": "Untitled 93.png",
+        "en": "It is hard",
+        "standard_zh": "这很困难。",
+        "standard_resolved_ambiguity": "形容词歧义；图片显示一个人面对复杂数学题感到挫败，表明“hard”意为“需要很大努力或耐力”。",
+        "group": 36,
+        "sense": [
+            {
+                "term": "hard",
+                "type": "lexical",
+                "gold_interpretation": "需要很大努力或耐力"
+            }
+        ]
+    },
+    {
+        "idx": 74,
+        "image": "Untitled 94.png",
+        "en": "It is sharp",
+        "standard_zh": "它很锋利。",
+        "standard_resolved_ambiguity": "形容词歧义：图片显示刀刃正在皮革板上使用，说明此处的“sharp”是指刀刃锋利，能够切割或刺穿物体。",
+        "group": 37,
+        "sense": [
+            {
+                "term": "sharp",
+                "type": "lexical",
+                "gold_interpretation": "锋利"
+            }
+        ]
+    },
+    {
+        "idx": 75,
+        "image": "Untitled 95.png",
+        "en": "It is sharp",
+        "standard_zh": "跌幅陡峭。",
+        "standard_resolved_ambiguity": "形容词歧义，“sharp”通过图片中股价的图像走势被解读为“陡峭、急剧”。",
+        "group": 37,
+        "sense": [
+            {
+                "term": "sharp",
+                "type": "lexical",
+                "gold_interpretation": "陡峭、急剧"
+            }
+        ]
+    },
+    {
+        "idx": 84,
+        "image": "Untitled 104.png",
+        "en": "It is high",
+        "standard_zh": "它很高。",
+        "standard_resolved_ambiguity": "形容词歧义，高根据图片可理解为‘垂直高度很大’。",
+        "group": 42,
+        "sense": [
+            {
+                "term": "high",
+                "type": "lexical",
+                "gold_interpretation": "垂直高度很大"
+            }
+        ]
+    },
+    {
+        "idx": 85,
+        "image": "Untitled 105.png",
+        "en": "It is high",
+        "standard_zh": "价格很高。",
+        "standard_resolved_ambiguity": "形容词歧义，“high”通过图片确定为指价格高。",
+        "group": 42,
+        "sense": [
+            {
+                "term": "high",
+                "type": "lexical",
+                "gold_interpretation": "价格高"
+            }
+        ]
+    },
+    {
+        "idx": 86,
+        "image": "Untitled 106.png",
+        "en": "It is deep",
+        "standard_zh": "它很深。",
+        "standard_resolved_ambiguity": "形容词歧义，图片显示场景是从表面向下延伸很深的水域，明确“deep”是指“深邃”的含义。",
+        "group": 43,
+        "sense": [
+            {
+                "term": "deep",
+                "type": "lexical",
+                "gold_interpretation": "深邃"
+            }
+        ]
+    },
+    {
+        "idx": 87,
+        "image": "Untitled 107.png",
+        "en": "It is deep",
+        "standard_zh": "这很深沉。",
+        "standard_resolved_ambiguity": "形容词歧义，由图片中男子低头沉思的姿态和昏暗的光线显示情感的强烈和深沉。",
+        "group": 43,
+        "sense": [
+            {
+                "term": "deep",
+                "type": "lexical",
+                "gold_interpretation": "深沉（形容情感或氛围）"
+            }
+        ]
+    },
+    {
+        "idx": 94,
+        "image": "Untitled 114.png",
+        "en": "It is heavy",
+        "standard_zh": "它很重。",
+        "standard_resolved_ambiguity": "形容词歧义，“heavy”在图片中指的是“重量大，难以移动”，而非其他引申义。",
+        "group": 47,
+        "sense": [
+            {
+                "term": "heavy",
+                "type": "lexical",
+                "gold_interpretation": "重量大，难以移动"
+            }
+        ]
+    },
+    {
+        "idx": 95,
+        "image": "Untitled 115.png",
+        "en": "It is heavy",
+        "standard_zh": "雨很大。",
+        "standard_resolved_ambiguity": "‘heavy’可指重量很重，也可表示强度很大。从图片看，是倾盆大雨，明确指强度大。",
+        "group": 47,
+        "sense": [
+            {
+                "term": "heavy",
+                "type": "lexical",
+                "gold_interpretation": "强度很大"
+            }
+        ]
+    },
+    {
+        "idx": 98,
+        "image": "Untitled 118.png",
+        "en": "It is loose",
+        "standard_zh": "它比较宽松。",
+        "standard_resolved_ambiguity": "形容词歧义，“宽松”指的是衣服的尺寸不紧身，图片显示衣服显然是宽松的款式。",
+        "group": 49,
+        "sense": [
+            {
+                "term": "loose",
+                "type": "lexical",
+                "gold_interpretation": "宽松的（指衣服尺寸不紧身）"
+            }
+        ]
+    },
+    {
+        "idx": 99,
+        "image": "Untitled 119.png",
+        "en": "It is loose",
+        "standard_zh": "它是松开的。",
+        "standard_resolved_ambiguity": "形容词歧义，“loose”指“未被固定或绑紧”。图片显示绳子是松开的状态。",
+        "group": 49,
+        "sense": [
+            {
+                "term": "loose",
+                "type": "lexical",
+                "gold_interpretation": "未被固定或绑紧"
+            }
+        ]
+    },
+    {
+        "idx": 100,
+        "image": "Untitled 150.png",
+        "en": "The chicken is ready to eat.",
+        "standard_zh": "鸡肉已经可以吃了。",
+        "standard_resolved_ambiguity": "结构性歧义。通过图片确认句子是被动含义：鸡肉已经准备好可以被食用了。",
+        "group": 50,
+        "sense": [
+            {
+                "term": "ready to eat",
+                "type": "syntactic",
+                "gold_interpretation": "鸡肉已经准备好可以被食用了"
+            }
+        ]
+    },
+    {
+        "idx": 101,
+        "image": "Untitled 151.png",
+        "en": "The chicken is ready to eat.",
+        "standard_zh": "这只鸡准备好吃饭了。",
+        "standard_resolved_ambiguity": "语法结构歧义，通过图片可以看出鸡是主动准备要吃饭。",
+        "group": 50,
+        "sense": [
+            {
+                "term": "ready to eat",
+                "type": "syntactic",
+                "gold_interpretation": "鸡准备好吃饭了"
+            }
+        ]
+    },
+    {
+        "idx": 104,
+        "image": "Untitled 154.png",
+        "en": "The baby is ready to feed.",
+        "standard_zh": "宝宝准备好自己吃饭了。",
+        "standard_resolved_ambiguity": "结构性歧义，通过图片确认该句是主动含义，即宝宝准备自己进食，而不是被动喂食。",
+        "group": 52,
+        "sense": [
+            {
+                "term": "ready to feed",
+                "type": "syntactic",
+                "gold_interpretation": "宝宝准备自己进食"
+            }
+        ]
+    },
+    {
+        "idx": 105,
+        "image": "Untitled 155.png",
+        "en": "The baby is ready to feed.",
+        "standard_zh": "婴儿准备好被喂食了。",
+        "standard_resolved_ambiguity": "句子为被动结构，图片显示是一个成人正拿着勺子要喂婴儿，因此消解了语法歧义。",
+        "group": 52,
+        "sense": [
+            {
+                "term": "ready to feed",
+                "type": "syntactic",
+                "gold_interpretation": "婴儿准备好被喂食了"
+            }
+        ]
+    },
+    {
+        "idx": 106,
+        "image": "Untitled 156.png",
+        "en": "The dog is ready to walk.",
+        "standard_zh": "这只狗已经准备好被带出去遛了。",
+        "standard_resolved_ambiguity": "结构歧义，通过图片确认狗已经拴上狗绳，表示被动意义，准备被牵出去散步。",
+        "group": 53,
+        "sense": [
+            {
+                "term": "ready to walk",
+                "type": "syntactic",
+                "gold_interpretation": "准备被牵出去散步"
+            }
+        ]
+    },
+    {
+        "idx": 107,
+        "image": "Untitled 157.png",
+        "en": "The dog is ready to walk.",
+        "standard_zh": "这只狗准备好要开始走了。",
+        "standard_resolved_ambiguity": "结构性歧义，由于图片显示狗正在草地上活动，明确了“walk”是指狗主动开始走动，而非被主人牵着散步。",
+        "group": 53,
+        "sense": [
+            {
+                "term": "walk",
+                "type": "syntactic",
+                "gold_interpretation": "狗主动开始走动"
+            }
+        ]
+    },
+    {
+        "idx": 108,
+        "image": "Untitled 158.png",
+        "en": "The horse is ready to ride.",
+        "standard_zh": "这匹马已经备好鞍，准备让人骑了。",
+        "standard_resolved_ambiguity": "结构性歧义，图片显示马已经备好鞍具，强调它被动地准备好供人骑行。",
+        "group": 54,
+        "sense": [
+            {
+                "term": "ready to ride",
+                "type": "syntactic",
+                "gold_interpretation": "马已经备好鞍，准备让人骑了"
+            }
+        ]
+    },
+    {
+        "idx": 109,
+        "image": "Untitled 159.png",
+        "en": "The horse is ready to ride.",
+        "standard_zh": "这匹马准备自己奔跑。",
+        "standard_resolved_ambiguity": "结构性歧义，照片显示马正在奔跑，说明句子中‘准备骑’是指马自身快要出发，而不是有人要骑。",
+        "group": 54,
+        "sense": [
+            {
+                "term": "ready to ride",
+                "type": "syntactic",
+                "gold_interpretation": "马准备自己奔跑"
+            }
+        ]
+    },
+    {
+        "idx": 112,
+        "image": "Untitled 162.png",
+        "en": "The car is ready to drive.",
+        "standard_zh": "汽车准备好可以驾驶了。",
+        "standard_resolved_ambiguity": "结构性歧义：通过图片中女性手握方向盘的视觉证据，确认是被动语态，意思是汽车被人（女性）准备好驾驶了。",
+        "group": 56,
+        "sense": [
+            {
+                "term": "ready to drive",
+                "type": "syntactic",
+                "gold_interpretation": "汽车被人（女性）准备好驾驶了"
+            }
+        ]
+    },
+    {
+        "idx": 113,
+        "image": "Untitled 163.png",
+        "en": "The car is ready to drive.",
+        "standard_zh": "汽车已准备好进行自动驾驶。",
+        "standard_resolved_ambiguity": "结构歧义；图像显示车内仪表盘和显示屏上有‘Autonomous Mode’，表明汽车处于自动驾驶状态。",
+        "group": 56,
+        "sense": [
+            {
+                "term": "ready to drive",
+                "type": "syntactic",
+                "gold_interpretation": "准备好进行自动驾驶"
+            }
+        ]
+    },
+    {
+        "idx": 114,
+        "image": "Untitled 188.png",
+        "en": "The room was filled with silence.",
+        "standard_zh": "房间里充满了宁静与祥和。",
+        "standard_resolved_ambiguity": "消解了句中的语用歧义，视觉显示这是一个冥想场景，与内心平静、反思一致。",
+        "group": 57,
+        "sense": [
+            {
+                "term": "filled with silence",
+                "type": "pragmatic",
+                "gold_interpretation": "宁静与祥和"
+            }
+        ]
+    },
+    {
+        "idx": 115,
+        "image": "Untitled 189.png",
+        "en": "The room was filled with silence.",
+        "standard_zh": "现场充满了沉寂。",
+        "standard_resolved_ambiguity": "语用歧义，图片显示为葬礼场景，暗示悲伤与失落的情绪氛围。",
+        "group": 57,
+        "sense": [
+            {
+                "term": "filled with silence",
+                "type": "pragmatic",
+                "gold_interpretation": "充满了沉寂（暗示悲伤与失落的情绪氛围）"
+            }
+        ]
+    },
+    {
+        "idx": 116,
+        "image": "Untitled 192.png",
+        "en": "The apple doesn't fall far from the tree.",
+        "standard_zh": "有其父必有其女。",
+        "standard_resolved_ambiguity": "句子的实际意思是指“孩子继承了或学习了父母值得赞扬的品质”，通过图中祖孙三代都身穿制服，并且父女似乎在延续家庭的优良传统，消解了模糊性。",
+        "group": 58,
+        "sense": [
+            {
+                "term": "The apple doesn't fall far from the tree",
+                "type": "pragmatic",
+                "gold_interpretation": "孩子继承了或学习了父母值得赞扬的品质"
+            }
+        ]
+    },
+    {
+        "idx": 117,
+        "image": "Untitled 193.png",
+        "en": "The apple doesn't fall far from the tree.",
+        "standard_zh": "这颗苹果确实没有落得离树远。",
+        "standard_resolved_ambiguity": "语用歧义：图片显示这是字面意思，苹果确实掉在离树很近的地方。",
+        "group": 58,
+        "sense": [
+            {
+                "term": "The apple doesn't fall far from the tree",
+                "type": "pragmatic",
+                "gold_interpretation": "这颗苹果确实没有落得离树远（字面意思）"
+            }
+        ]
+    },
+    {
+        "idx": 120,
+        "image": "Untitled 196.png",
+        "en": "The city never sleeps?",
+        "standard_zh": "这座城市从未入睡。",
+        "standard_resolved_ambiguity": "语用歧义通过视觉证据解决。图片显示了一个繁忙的夜生活场景，表明城市‘醒着’并且充满活动。",
+        "group": 60,
+        "sense": [
+            {
+                "term": "never sleeps",
+                "type": "pragmatic",
+                "gold_interpretation": "城市在夜间仍然非常活跃"
+            }
+        ]
+    },
+    {
+        "idx": 121,
+        "image": "Untitled 197.png",
+        "en": "The city never sleeps?",
+        "standard_zh": "这个城市让人无法入睡吗？",
+        "standard_resolved_ambiguity": "语用歧义，通过图片确定句子表达的是‘无法成功入睡’。",
+        "group": 60,
+        "sense": [
+            {
+                "term": "never sleeps",
+                "type": "pragmatic",
+                "gold_interpretation": "无法成功入睡"
+            }
+        ]
+    },
+    {
+        "idx": 122,
+        "image": "Untitled 198.png",
+        "en": "Is this the light at the end of the tunnel?",
+        "standard_zh": "这就是苦尽甘来的曙光吗？",
+        "standard_resolved_ambiguity": "语用歧义，通过图像显示毕业是艰辛努力后象征成功的‘曙光’，从而消解。",
+        "group": 61,
+        "sense": [
+            {
+                "term": "light at the end of the tunnel",
+                "type": "pragmatic",
+                "gold_interpretation": "苦尽甘来的曙光"
+            }
+        ]
+    },
+    {
+        "idx": 123,
+        "image": "Untitled 199.png",
+        "en": "Is this the light at the end of the tunnel?",
+        "standard_zh": "这是隧道尽头的光吗？",
+        "standard_resolved_ambiguity": "语用歧义：图片展示隧道尽头的日出，确认是字面意义。",
+        "group": 61,
+        "sense": [
+            {
+                "term": "light at the end of the tunnel",
+                "type": "pragmatic",
+                "gold_interpretation": "隧道尽头的光"
+            }
+        ]
+    },
+    {
+        "idx": 124,
+        "image": "Untitled 200.png",
+        "en": "How is this person like a lion?",
+        "standard_zh": "这个人如何像一头狮子？",
+        "standard_resolved_ambiguity": "解决了句子的语义模棱两可问题。图片表明问题所指的是将这人比喻为狮子的领导能力、力量或自信。",
+        "group": 62,
+        "sense": [
+            {
+                "term": "like a lion",
+                "type": "pragmatic",
+                "gold_interpretation": "比喻为狮子的领导能力、力量或自信"
+            }
+        ]
+    },
+    {
+        "idx": 125,
+        "image": "Untitled 201.png",
+        "en": "How is this person like a lion?",
+        "standard_zh": "这个人哪里像狮子？",
+        "standard_resolved_ambiguity": "基于图像，消解出问题暗指这个人打哈欠的样子像狮子张口咆哮。",
+        "group": 62,
+        "sense": [
+            {
+                "term": "like a lion",
+                "type": "pragmatic",
+                "gold_interpretation": "这个人打哈欠的样子像狮子张口咆哮"
+            }
+        ]
+    },
+    {
+        "idx": 126,
+        "image": "Untitled 202.png",
+        "en": "Is this situation as delicate as a glass?",
+        "standard_zh": "这个局势是否如玻璃般脆弱？",
+        "standard_resolved_ambiguity": "图像表明这是一次美国和巴基斯坦的高层外交会谈，涉及需要小心应对的敏感议题，消解了‘玻璃’的比喻指向复杂外交局势。",
+        "group": 63,
+        "sense": [
+            {
+                "term": "delicate as a glass",
+                "type": "pragmatic",
+                "gold_interpretation": "比喻复杂的外交局势需要小心应对"
+            }
+        ]
+    },
+    {
+        "idx": 127,
+        "image": "Untitled 203.png",
+        "en": "Is this situation as delicate as a glass?",
+        "standard_zh": "这个场景是否像玻璃一样脆弱？",
+        "standard_resolved_ambiguity": "语境歧义，通过图片可明确指出这是指男子手中堆叠的玻璃杯容易破碎的情形。",
+        "group": 63,
+        "sense": [
+            {
+                "term": "delicate as a glass",
+                "type": "pragmatic",
+                "gold_interpretation": "容易破碎的玻璃杯"
+            }
+        ]
+    },
+    {
+        "idx": 134,
+        "image": "Untitled 212.png",
+        "en": "Break the leg",
+        "standard_zh": "祝演员演出顺利。",
+        "standard_resolved_ambiguity": "语用歧义，通过图片确认是在剧院后台，演员即将上台表演，表明这是演出前对演员的祝福。",
+        "group": 67,
+        "sense": [
+            {
+                "term": "Break the leg",
+                "type": "pragmatic",
+                "gold_interpretation": "祝演员演出顺利"
+            }
+        ]
+    },
+    {
+        "idx": 135,
+        "image": "Untitled 213.png",
+        "en": "Break the leg",
+        "standard_zh": "腿骨折了。",
+        "standard_resolved_ambiguity": "语用歧义；图片显示确实是一个人的腿骨折并被包扎，而非鼓励好运的隐喻表达。",
+        "group": 67,
+        "sense": [
+            {
+                "term": "Break the leg",
+                "type": "pragmatic",
+                "gold_interpretation": "腿骨折了"
+            }
+        ]
+    },
+    {
+        "idx": 136,
+        "image": "Untitled 226.png",
+        "en": "Torching head",
+        "standard_zh": "深情地靠近",
+        "standard_resolved_ambiguity": "动词歧义：图像显示两人亲密靠近，结合提示“因为爱”，‘torch’应理解为‘深情凝视’或‘靠近’的含义。",
+        "group": 68,
+        "sense": [
+            {
+                "term": "Torching",
+                "type": "lexical",
+                "gold_interpretation": "深情地靠近"
+            }
+        ]
+    },
+    {
+        "idx": 137,
+        "image": "Untitled 227.png",
+        "en": "Torching head",
+        "standard_zh": "安慰地抚摸头部",
+        "standard_resolved_ambiguity": "动词歧义，“torching”在此并不意味着点燃，而是指安慰性的轻抚。图像显示一个人在安慰另一个人。",
+        "group": 68,
+        "sense": [
+            {
+                "term": "torching",
+                "type": "lexical",
+                "gold_interpretation": "安慰性的轻抚"
+            }
+        ]
+    },
+    {
+        "idx": 138,
+        "image": "Untitled 228.png",
+        "en": "Torching head",
+        "standard_zh": "轻拍头以示认可",
+        "standard_resolved_ambiguity": "由于动词“torching”具有歧义，图片显示该人轻拍另一个人的头，传达出骄傲或认可的态度，这消解了歧义。",
+        "group": 69,
+        "sense": [
+            {
+                "term": "torching head",
+                "type": "lexical",
+                "gold_interpretation": "轻拍头以示认可"
+            }
+        ]
+    },
+    {
+        "idx": 139,
+        "image": "Untitled 229.png",
+        "en": "Torching head",
+        "standard_zh": "压制头部",
+        "standard_resolved_ambiguity": "动词歧义，图片显示此处的'torching'指对头部进行压制以表现主导或控制。",
+        "group": 69,
+        "sense": [
+            {
+                "term": "torching",
+                "type": "lexical",
+                "gold_interpretation": "压制"
+            }
+        ]
+    },
+    {
+        "idx": 142,
+        "image": "Noun_2.png",
+        "en": "Where can you most likely find a bat?",
+        "standard_zh": "你最可能在哪里找到蝙蝠？",
+        "standard_resolved_ambiguity": "名词歧义。通过图片显示的是蝙蝠，而非棒球棍，从而确定了问题中的 'bat' 是指动物。",
+        "group": 71,
+        "sense": [
+            {
+                "term": "bat",
+                "type": "lexical",
+                "gold_interpretation": "蝙蝠"
+            }
+        ]
+    },
+    {
+        "idx": 143,
+        "image": "Noun_3.png",
+        "en": "Where can you most likely find a bat?",
+        "standard_zh": "你最有可能在哪里找到棒球棒？",
+        "standard_resolved_ambiguity": "消解了“bat”这个词的歧义。根据图片和提示，这里指的是棒球棒，而不是蝙蝠。",
+        "group": 71,
+        "sense": [
+            {
+                "term": "bat",
+                "type": "lexical",
+                "gold_interpretation": "棒球棒"
+            }
+        ]
+    },
+    {
+        "idx": 144,
+        "image": "Noun_4.png",
+        "en": "Where can you commonly see a crane?",
+        "standard_zh": "你通常在哪里能看到鹤？",
+        "standard_resolved_ambiguity": "解释了“crane”指的是鸟类鹤，而非建筑起重机，图片中的鹤和提示中“Wetland”消除了歧义。",
+        "group": 72,
+        "sense": [
+            {
+                "term": "crane",
+                "type": "lexical",
+                "gold_interpretation": "鹤"
+            }
+        ]
+    },
+    {
+        "idx": 145,
+        "image": "Noun_5.png",
+        "en": "Where can you commonly see a crane?",
+        "standard_zh": "你常常可以在施工现场看到起重机。",
+        "standard_resolved_ambiguity": "名词歧义，图片显示的是建筑工地使用的起重机，而非鸟类。",
+        "group": 72,
+        "sense": [
+            {
+                "term": "crane",
+                "type": "lexical",
+                "gold_interpretation": "起重机"
+            }
+        ]
+    },
+    {
+        "idx": 146,
+        "image": "Noun_6.png",
+        "en": "What makes a date sweet?",
+        "standard_zh": "是什么让枣子很甜？",
+        "standard_resolved_ambiguity": "名词歧义，通过图片确认“date”指的是枣子，而不是约会。",
+        "group": 73,
+        "sense": [
+            {
+                "term": "date",
+                "type": "lexical",
+                "gold_interpretation": "枣子"
+            }
+        ]
+    },
+    {
+        "idx": 147,
+        "image": "Noun_7.png",
+        "en": "What makes a date sweet?",
+        "standard_zh": "约会的甜蜜之处是什么？",
+        "standard_resolved_ambiguity": "名词歧义，图片和提示表明这里的'date'指的是浪漫约会，而不是枣。",
+        "group": 73,
+        "sense": [
+            {
+                "term": "date",
+                "type": "lexical",
+                "gold_interpretation": "浪漫约会"
+            }
+        ]
+    },
+    {
+        "idx": 152,
+        "image": "Noun_12.png",
+        "en": "What do people go to the bank for?",
+        "standard_zh": "人们去银行是为了办理业务。",
+        "standard_resolved_ambiguity": "名词歧义已消解。图片显示‘银行’，结合提示明确指的是金融机构，而非‘河岸’。",
+        "group": 76,
+        "sense": [
+            {
+                "term": "bank",
+                "type": "lexical",
+                "gold_interpretation": "金融机构"
+            }
+        ]
+    },
+    {
+        "idx": 153,
+        "image": "Noun_13.png",
+        "en": "What do people go to the bank for?",
+        "standard_zh": "人们去河岸是为了钓鱼。",
+        "standard_resolved_ambiguity": "名词歧义。“bank”有河岸和银行两种含义。从图片中可以辨别出这是河岸，并结合提示得知人们是去钓鱼，因此明确了指的是河岸。",
+        "group": 76,
+        "sense": [
+            {
+                "term": "bank",
+                "type": "lexical",
+                "gold_interpretation": "河岸"
+            }
+        ]
+    },
+    {
+        "idx": 158,
+        "image": "Noun_19.png",
+        "en": "What can the glasses be used for?",
+        "standard_zh": "眼镜可以用来做什么？",
+        "standard_resolved_ambiguity": "名词歧义：图片和提示表明“眼镜”指的是用于视力矫正的眼镜。",
+        "group": 79,
+        "sense": [
+            {
+                "term": "glasses",
+                "type": "lexical",
+                "gold_interpretation": "用于视力矫正的眼镜"
+            }
+        ]
+    },
+    {
+        "idx": 159,
+        "image": "Noun_20.png",
+        "en": "What can the glasses be used for?",
+        "standard_zh": "玻璃制品可以用来做什么？",
+        "standard_resolved_ambiguity": "名词歧义：通过图像确认'glasses'指的是玻璃装饰品，而不是饮用工具。",
+        "group": 79,
+        "sense": [
+            {
+                "term": "glasses",
+                "type": "lexical",
+                "gold_interpretation": "玻璃装饰品"
+            }
+        ]
+    },
+    {
+        "idx": 166,
+        "image": "Noun_27.png",
+        "en": "How do you capture the essence of this bass?",
+        "standard_zh": "你如何能捕捉这条鲈鱼的精髓？",
+        "standard_resolved_ambiguity": "名词歧义：基础上的“bass”可以指鱼或低音，通过提示得知这里指的是鲈鱼，结合图片消解歧义。",
+        "group": 83,
+        "sense": [
+            {
+                "term": "bass",
+                "type": "lexical",
+                "gold_interpretation": "鲈鱼"
+            }
+        ]
+    },
+    {
+        "idx": 167,
+        "image": "Noun_28.png",
+        "en": "How do you capture the essence of this bass?",
+        "standard_zh": "你如何捕捉这把贝斯的精髓？",
+        "standard_resolved_ambiguity": "歧义类型为名词歧义，图片显示的是一把贝斯乐器，消解了“bass”是贝斯而非鱼的含义。",
+        "group": 83,
+        "sense": [
+            {
+                "term": "bass",
+                "type": "lexical",
+                "gold_interpretation": "贝斯乐器"
+            }
+        ]
+    },
+    {
+        "idx": 168,
+        "image": "Noun_29.png",
+        "en": "What can a ring signify?",
+        "standard_zh": "戒指能象征什么？",
+        "standard_resolved_ambiguity": "消解了名词歧义，明确了‘戒指’（ring）的意义是在这里象征‘承诺’（commitment），而非其他意义。",
+        "group": 84,
+        "sense": [
+            {
+                "term": "ring",
+                "type": "lexical",
+                "gold_interpretation": "戒指（象征承诺）"
+            }
+        ]
+    },
+    {
+        "idx": 169,
+        "image": "Noun_30.png",
+        "en": "What can a ring signify?",
+        "standard_zh": "钟声能象征什么？",
+        "standard_resolved_ambiguity": "名词歧义。图中显示大钟，结合提示，‘ring’是指钟声，与时间相关。",
+        "group": 84,
+        "sense": [
+            {
+                "term": "ring",
+                "type": "lexical",
+                "gold_interpretation": "钟声"
+            }
+        ]
+    },
+    {
+        "idx": 170,
+        "image": "Noun_31.png",
+        "en": "How can we protect the seal?",
+        "standard_zh": "我们如何保护海豹？",
+        "standard_resolved_ambiguity": "名词歧义消解：通过图像确认‘seal’指的是‘海豹’而非其他含义。",
+        "group": 85,
+        "sense": [
+            {
+                "term": "seal",
+                "type": "lexical",
+                "gold_interpretation": "海豹"
+            }
+        ]
+    },
+    {
+        "idx": 171,
+        "image": "Noun_32.png",
+        "en": "How can we protect the seal?",
+        "standard_zh": "我们如何保护蜡封？",
+        "standard_resolved_ambiguity": "名词歧义，通过图中展示的印章和蜡封确定‘seal’指蜡封。",
+        "group": 85,
+        "sense": [
+            {
+                "term": "seal",
+                "type": "lexical",
+                "gold_interpretation": "蜡封"
+            }
+        ]
+    },
+    {
+        "idx": 172,
+        "image": "Noun_33.png",
+        "en": "What message does that wave carry?",
+        "standard_zh": "那道海浪传达了什么信息？",
+        "standard_resolved_ambiguity": "名词歧义：通过图中巨大而汹涌的浪涛，结合提示得知信息是‘危险’。",
+        "group": 86,
+        "sense": [
+            {
+                "term": "wave",
+                "type": "lexical",
+                "gold_interpretation": "海浪"
+            }
+        ]
+    },
+    {
+        "idx": 173,
+        "image": "Noun_34.png",
+        "en": "What message does that wave carry?",
+        "standard_zh": "那个挥手传递了什么信息？",
+        "standard_resolved_ambiguity": "名词歧义（wave）。根据图片中小孩热情挥手的姿势和提示，'wave'不指海浪，而是挥手，代表支持。",
+        "group": 86,
+        "sense": [
+            {
+                "term": "wave",
+                "type": "lexical",
+                "gold_interpretation": "挥手"
+            }
+        ]
+    },
+    {
+        "idx": 174,
+        "image": "Noun_36.png",
+        "en": "What is the bow used for?",
+        "standard_zh": "蝴蝶结是用来做什么的？",
+        "standard_resolved_ambiguity": "消解了名词歧义，图片显示这是用于装饰的发饰，而不是用于其他用途（例如射箭的弓等）。",
+        "group": 87,
+        "sense": [
+            {
+                "term": "bow",
+                "type": "lexical",
+                "gold_interpretation": "蝴蝶结（用于装饰的发饰）"
+            }
+        ]
+    },
+    {
+        "idx": 175,
+        "image": "Noun_37.png",
+        "en": "What is the bow used for?",
+        "standard_zh": "弓箭是用来做什么？",
+        "standard_resolved_ambiguity": "名词歧义，图片和提示表明“bow”指的是弓，用于射箭。",
+        "group": 87,
+        "sense": [
+            {
+                "term": "bow",
+                "type": "lexical",
+                "gold_interpretation": "弓"
+            }
+        ]
+    },
+    {
+        "idx": 178,
+        "image": "Noun_40.png",
+        "en": "What properties make lead so critical?",
+        "standard_zh": "是什么特性使铅如此重要？",
+        "standard_resolved_ambiguity": "名词‘lead’的歧义被消解，图像显示为铅金属，而非‘lead’含义中的领导者。",
+        "group": 89,
+        "sense": [
+            {
+                "term": "lead",
+                "type": "lexical",
+                "gold_interpretation": "铅金属"
+            }
+        ]
+    },
+    {
+        "idx": 179,
+        "image": "Noun_41.png",
+        "en": "What properties make lead so critical?",
+        "standard_zh": "是什么特性让领导力如此重要？",
+        "standard_resolved_ambiguity": "名词歧义。通过图片与提示信息得知，这里的“lead”指的是“领导力”而非元素铅。",
+        "group": 89,
+        "sense": [
+            {
+                "term": "lead",
+                "type": "lexical",
+                "gold_interpretation": "领导力"
+            }
+        ]
+    },
+    {
+        "idx": 180,
+        "image": "Noun_42.png",
+        "en": "What can be the purpose of a draft?",
+        "standard_zh": "草稿的目的是什么？",
+        "standard_resolved_ambiguity": "名词歧义，图片显示的是打字机并不涉及立法内容，但提示说明是立法审查。",
+        "group": 90,
+        "sense": [
+            {
+                "term": "draft",
+                "type": "lexical",
+                "gold_interpretation": "立法草案"
+            }
+        ]
+    },
+    {
+        "idx": 181,
+        "image": "Noun_43.png",
+        "en": "What can be the purpose of a draft?",
+        "standard_zh": "征召的目的是什么？",
+        "standard_resolved_ambiguity": "名词歧义，通过图像可以确定“draft”指的是与服兵役相关的征召。",
+        "group": 90,
+        "sense": [
+            {
+                "term": "draft",
+                "type": "lexical",
+                "gold_interpretation": "征召（服兵役）"
+            }
+        ]
+    },
+    {
+        "idx": 182,
+        "image": "Noun_48.png",
+        "en": "What role does the pole play?",
+        "standard_zh": "地轴起什么作用？",
+        "standard_resolved_ambiguity": "‘pole’的歧义，图片以及提示明确指的是地理标志中的地轴。",
+        "group": 91,
+        "sense": [
+            {
+                "term": "pole",
+                "type": "lexical",
+                "gold_interpretation": "地轴"
+            }
+        ]
+    },
+    {
+        "idx": 183,
+        "image": "Noun_49.png",
+        "en": "What role does the pole play?",
+        "standard_zh": "这根杆子起到了什么作用？",
+        "standard_resolved_ambiguity": "名词歧义，图像显示这是一个路灯杆，与提示一起确认其作用是结构支撑。",
+        "group": 91,
+        "sense": [
+            {
+                "term": "pole",
+                "type": "lexical",
+                "gold_interpretation": "路灯杆"
+            }
+        ]
+    },
+    {
+        "idx": 184,
+        "image": "Noun_50.png",
+        "en": "What details are critical to this watch?",
+        "standard_zh": "这款手表的关键细节是是什么？",
+        "standard_resolved_ambiguity": "名词歧义，“this watch”在图片和提示下明确指代手表，并强调其‘精准计时’。",
+        "group": 92,
+        "sense": [
+            {
+                "term": "this watch",
+                "type": "lexical",
+                "gold_interpretation": "这款手表（强调其‘精准计时’）"
+            }
+        ]
+    },
+    {
+        "idx": 185,
+        "image": "Noun_51.png",
+        "en": "What details are critical to this watch?",
+        "standard_zh": "这部表演关键的细节是什么？",
+        "standard_resolved_ambiguity": "名词歧义，由于图片显示为一场表演，而提示中提到的是“引人入胜的故事情节”，明确‘watch’意指‘观看表演’。",
+        "group": 92,
+        "sense": [
+            {
+                "term": "watch",
+                "type": "lexical",
+                "gold_interpretation": "观看表演"
+            }
+        ]
+    },
+    {
+        "idx": 186,
+        "image": "Noun_54.png",
+        "en": "How can we build the block?",
+        "standard_zh": "我们如何规划这个街区？",
+        "standard_resolved_ambiguity": "歧义类别为名词歧义，根据提示和图片，‘block’指的是城市街区的规划而非建筑物。",
+        "group": 93,
+        "sense": [
+            {
+                "term": "block",
+                "type": "lexical",
+                "gold_interpretation": "街区"
+            }
+        ]
+    },
+    {
+        "idx": 187,
+        "image": "Noun_55.png",
+        "en": "How can we build the block?",
+        "standard_zh": "我们如何可以搭建这些积木？",
+        "standard_resolved_ambiguity": "消解了'block'的歧义，通过图片和提示明确它指的是积木，而非其他抽象概念或单一物体。",
+        "group": 93,
+        "sense": [
+            {
+                "term": "block",
+                "type": "lexical",
+                "gold_interpretation": "积木"
+            }
+        ]
+    },
+    {
+        "idx": 188,
+        "image": "Noun_56.png",
+        "en": "What can the bar be used for?",
+        "standard_zh": "酒吧可以用来做什么？",
+        "standard_resolved_ambiguity": "名词歧义，由于图像清晰显示了一个饮品酒吧，以及提示明确指出用途为提供食物或饮料，消除了其他可能的解释（如障碍物或法律专业术语）。",
+        "group": 94,
+        "sense": [
+            {
+                "term": "bar",
+                "type": "lexical",
+                "gold_interpretation": "酒吧"
+            }
+        ]
+    },
+    {
+        "idx": 189,
+        "image": "Noun_57.png",
+        "en": "What can the bar be used for?",
+        "standard_zh": "木条可以用来做什么？",
+        "standard_resolved_ambiguity": "名词歧义：图片显示“bar”指代木条，根据提示，这些木条用于建筑材料。",
+        "group": 94,
+        "sense": [
+            {
+                "term": "bar",
+                "type": "lexical",
+                "gold_interpretation": "木条"
+            }
+        ]
+    },
+    {
+        "idx": 190,
+        "image": "Noun_58.png",
+        "en": "How can we use these files?",
+        "standard_zh": "我们如何使用这些锉刀？",
+        "standard_resolved_ambiguity": "名词歧义：通过图片确认‘files’指的是手工用的锉刀，而非计算机文件。",
+        "group": 95,
+        "sense": [
+            {
+                "term": "files",
+                "type": "lexical",
+                "gold_interpretation": "锉刀"
+            }
+        ]
+    },
+    {
+        "idx": 191,
+        "image": "Noun_59.png",
+        "en": "How can we use these files?",
+        "standard_zh": "我们如何使用这些文件夹？",
+        "standard_resolved_ambiguity": "‘files’的歧义（文件或文件夹），图片显示的是文件夹，消除了歧义。",
+        "group": 95,
+        "sense": [
+            {
+                "term": "files",
+                "type": "lexical",
+                "gold_interpretation": "文件夹"
+            }
+        ]
+    },
+    {
+        "idx": 192,
+        "image": "Noun_60.png",
+        "en": "What can the hammer be used for?",
+        "standard_zh": "锤子可以用来做什么？",
+        "standard_resolved_ambiguity": "名词歧义：图片显示锤子用于钉钉子，明确了用途。",
+        "group": 96,
+        "sense": [
+            {
+                "term": "hammer",
+                "type": "lexical",
+                "gold_interpretation": "锤子（用于钉钉子）"
+            }
+        ]
+    },
+    {
+        "idx": 193,
+        "image": "Noun_61.png",
+        "en": "What can the hammer be used for?",
+        "standard_zh": "琴槌可以用来做什么？",
+        "standard_resolved_ambiguity": "名词歧义，由图片显示这是钢琴内部的琴槌部分，结合提示明确这个“hammer”指的是音乐创作所用的琴槌，而非普通锤子。",
+        "group": 96,
+        "sense": [
+            {
+                "term": "hammer",
+                "type": "lexical",
+                "gold_interpretation": "琴槌"
+            }
+        ]
+    },
+    {
+        "idx": 196,
+        "image": "Noun_64.png",
+        "en": "What value does this pound represent?",
+        "standard_zh": "这磅代表的数值是多少？",
+        "standard_resolved_ambiguity": "名词歧义：‘pound’在图片中清楚表示为重量单位，而非货币单位。",
+        "group": 98,
+        "sense": [
+            {
+                "term": "pound",
+                "type": "lexical",
+                "gold_interpretation": "重量单位"
+            }
+        ]
+    },
+    {
+        "idx": 197,
+        "image": "Noun_65.png",
+        "en": "What value does this pound represent?",
+        "standard_zh": "这一英镑代表什么货币价值？",
+        "standard_resolved_ambiguity": "该歧义是名词歧义，图片显示出英镑的硬币和纸币，结合提示明确表示的是货币价值。",
+        "group": 98,
+        "sense": [
+            {
+                "term": "pound",
+                "type": "lexical",
+                "gold_interpretation": "英镑（货币）"
+            }
+        ]
+    },
+    {
+        "idx": 198,
+        "image": "Noun_66.png",
+        "en": "What function does a cap serve?",
+        "standard_zh": "帽子的作用是什么？",
+        "standard_resolved_ambiguity": "名词歧义：图片展示了帽子，结合提示明确了“cap”指的是帽子而不是其他含义。",
+        "group": 99,
+        "sense": [
+            {
+                "term": "cap",
+                "type": "lexical",
+                "gold_interpretation": "帽子"
+            }
+        ]
+    },
+    {
+        "idx": 199,
+        "image": "Noun_67.png",
+        "en": "What function does a cap serve?",
+        "standard_zh": "上限的作用是什么？",
+        "standard_resolved_ambiguity": "名词歧义（“cap”可以指帽子或上限），图像和提示明确指出是财务相关的“上限”。",
+        "group": 99,
+        "sense": [
+            {
+                "term": "cap",
+                "type": "lexical",
+                "gold_interpretation": "上限"
+            }
+        ]
+    },
+    {
+        "idx": 204,
+        "image": "Noun_72.png",
+        "en": "How can we best utilize the space on this table?",
+        "standard_zh": "我们如何才能最佳利用这张桌子的空间？",
+        "standard_resolved_ambiguity": "名词歧义——图片显示了一张木质茶几，但通过提示明确此处提到的桌子是用于摆放自助餐的，而不是其他用途。",
+        "group": 102,
+        "sense": [
+            {
+                "term": "table",
+                "type": "lexical",
+                "gold_interpretation": "用于摆放自助餐的桌子"
+            }
+        ]
+    },
+    {
+        "idx": 205,
+        "image": "Noun_73.png",
+        "en": "How can we best utilize the space on this table?",
+        "standard_zh": "我们如何才能最好地利用这张表格上的空间？",
+        "standard_resolved_ambiguity": "名词歧义：图片显示的是一张空白的乘法表格，与提示中提到的通过CSS设计改进表格相关，因此“table”明确指表格。",
+        "group": 102,
+        "sense": [
+            {
+                "term": "table",
+                "type": "lexical",
+                "gold_interpretation": "表格"
+            }
+        ]
+    },
+    {
+        "idx": 206,
+        "image": "Noun_74.png",
+        "en": "What effects will the fall bring?",
+        "standard_zh": "秋天会带来怎样的效果？",
+        "standard_resolved_ambiguity": "名词歧义，通过图片和提示明确了“fall”指秋天的季节变化，特别是树叶颜色改变。",
+        "group": 103,
+        "sense": [
+            {
+                "term": "fall",
+                "type": "lexical",
+                "gold_interpretation": "秋天"
+            }
+        ]
+    },
+    {
+        "idx": 207,
+        "image": "Noun_75.png",
+        "en": "What effects will the fall bring?",
+        "standard_zh": "价格下跌会带来什么影响？",
+        "standard_resolved_ambiguity": "名词歧义：‘fall’被图像确认指的是市场价格下跌。",
+        "group": 103,
+        "sense": [
+            {
+                "term": "fall",
+                "type": "lexical",
+                "gold_interpretation": "价格下跌"
+            }
+        ]
+    },
+    {
+        "idx": 210,
+        "image": "Noun_78.png",
+        "en": "What is the antonym of right?",
+        "standard_zh": "“正确”的反义词是什么？",
+        "standard_resolved_ambiguity": "形容词歧义；根据图片中的红色对号，确认“right”指的是“正确”。",
+        "group": 105,
+        "sense": [
+            {
+                "term": "right",
+                "type": "lexical",
+                "gold_interpretation": "正确"
+            }
+        ]
+    },
+    {
+        "idx": 211,
+        "image": "Noun_79.png",
+        "en": "What is the antonym of right?",
+        "standard_zh": "“右”的反义词是什么？",
+        "standard_resolved_ambiguity": "形容词歧义，由于图中显示方向“右”，确定了“right”指的是方向，而非正确。",
+        "group": 105,
+        "sense": [
+            {
+                "term": "right",
+                "type": "lexical",
+                "gold_interpretation": "右"
+            }
+        ]
+    },
+    {
+        "idx": 216,
+        "image": "Noun_86.png",
+        "en": "What are the key features of this turkey?",
+        "standard_zh": "这片土耳其的关键特色是什么？",
+        "standard_resolved_ambiguity": "名词歧义，通过图片中的圣索菲亚大教堂和提示中的历史名胜，明确'turkey'指的是国家而非火鸡。",
+        "group": 108,
+        "sense": [
+            {
+                "term": "turkey",
+                "type": "lexical",
+                "gold_interpretation": "土耳其（国家）"
+            }
+        ]
+    },
+    {
+        "idx": 217,
+        "image": "Noun_87.png",
+        "en": "What are the key features of this turkey?",
+        "standard_zh": "这只火鸡的主要特点是什么？",
+        "standard_resolved_ambiguity": "图片显示的是一只烤熟的火鸡，而不是带羽毛的活火鸡，因此图像消解了“羽毛”相关的歧义。",
+        "group": 108,
+        "sense": [
+            {
+                "term": "turkey",
+                "type": "lexical",
+                "gold_interpretation": "烤熟的火鸡"
+            }
+        ]
+    },
+    {
+        "idx": 218,
+        "image": "Noun_88.png",
+        "en": "How can we best use a clip in this project?",
+        "standard_zh": "我们如何在这个项目中最好地使用长尾夹？",
+        "standard_resolved_ambiguity": "“clip”有多种意思，图片显示的是长尾夹，加上提示，引导明确为用来整理文件。",
+        "group": 109,
+        "sense": [
+            {
+                "term": "clip",
+                "type": "lexical",
+                "gold_interpretation": "长尾夹"
+            }
+        ]
+    },
+    {
+        "idx": 219,
+        "image": "Noun_89.png",
+        "en": "How can we best use a clip in this project?",
+        "standard_zh": "我们怎样才能在这个项目中最好地利用一个剪辑？",
+        "standard_resolved_ambiguity": "‘clip’可以指剪辑（影片片段）或夹子。通过画面中的视频编辑界面和提示可以明确指的是电影的剪辑。",
+        "group": 109,
+        "sense": [
+            {
+                "term": "clip",
+                "type": "lexical",
+                "gold_interpretation": "剪辑（影片片段）"
+            }
+        ]
+    },
+    {
+        "idx": 222,
+        "image": "Noun_94.png",
+        "en": "What is the role of a server?",
+        "standard_zh": "服务器的作用是什么？",
+        "standard_resolved_ambiguity": "“服务器”这个词可能会有歧义，图片展示了数据中心的服务器，结合提示明确指的是计算机服务器，而非服务人员。",
+        "group": 111,
+        "sense": [
+            {
+                "term": "server",
+                "type": "lexical",
+                "gold_interpretation": "计算机服务器"
+            }
+        ]
+    },
+    {
+        "idx": 223,
+        "image": "Noun_95.png",
+        "en": "What is the role of a server?",
+        "standard_zh": "服务员的职责是什么？",
+        "standard_resolved_ambiguity": "歧义在于“server”，其含义可能为服务员或计算机服务器。通过图片中出现的餐厅服务场景明确指向服务员的职责。",
+        "group": 111,
+        "sense": [
+            {
+                "term": "server",
+                "type": "lexical",
+                "gold_interpretation": "服务员"
+            }
+        ]
+    },
+    {
+        "idx": 224,
+        "image": "Noun_96.png",
+        "en": "How does the web play a crucial role?",
+        "standard_zh": "蜘蛛网如何发挥关键作用？",
+        "standard_resolved_ambiguity": "名词歧义：通过图像和提示，可以确定 'web' 指的是蜘蛛网，而不是互联网。",
+        "group": 112,
+        "sense": [
+            {
+                "term": "web",
+                "type": "lexical",
+                "gold_interpretation": "蜘蛛网"
+            }
+        ]
+    },
+    {
+        "idx": 225,
+        "image": "Noun_97.png",
+        "en": "How does the web play a crucial role?",
+        "standard_zh": "网络如何发挥关键作用？",
+        "standard_resolved_ambiguity": "通过图片和提示确定“web”指代互联网，而非蜘蛛网。",
+        "group": 112,
+        "sense": [
+            {
+                "term": "web",
+                "type": "lexical",
+                "gold_interpretation": "互联网"
+            }
+        ]
+    },
+    {
+        "idx": 226,
+        "image": "Noun_98.png",
+        "en": "What is the significance of the transformer?",
+        "standard_zh": "变压器的意义是什么？",
+        "standard_resolved_ambiguity": "消除了名词歧义，通过图片确定'transformer'是指电力设备而非其他含义。",
+        "group": 113,
+        "sense": [
+            {
+                "term": "transformer",
+                "type": "lexical",
+                "gold_interpretation": "电力设备"
+            }
+        ]
+    },
+    {
+        "idx": 227,
+        "image": "Noun_100.png",
+        "en": "What is the significance of the transformer?",
+        "standard_zh": "Transformer的重要性是什么？",
+        "standard_resolved_ambiguity": "名词歧义，“transformer”通过图中的神经网络示意图被明确为自然语言处理中的模型架构。",
+        "group": 113,
+        "sense": [
+            {
+                "term": "transformer",
+                "type": "lexical",
+                "gold_interpretation": "自然语言处理中的模型架构"
+            }
+        ]
+    },
+    {
+        "idx": 232,
+        "image": "Noun_107.png",
+        "en": "What is the square used for?",
+        "standard_zh": "这个正方形是用来做什么的？",
+        "standard_resolved_ambiguity": "名词歧义：图片中显示的是一个几何图形的正方形，结合提示答案明确其用作面积测量。",
+        "group": 116,
+        "sense": [
+            {
+                "term": "square",
+                "type": "lexical",
+                "gold_interpretation": "几何图形的正方形（用于面积测量）"
+            }
+        ]
+    },
+    {
+        "idx": 233,
+        "image": "Noun_108.png",
+        "en": "What is the square used for?",
+        "standard_zh": "广场是用来做什么的？",
+        "standard_resolved_ambiguity": "名词歧义：图像显示的是一个城市广场，而不是几何形状或其他含义；结合提示，确定广场的用途为聚集人们。",
+        "group": 116,
+        "sense": [
+            {
+                "term": "square",
+                "type": "lexical",
+                "gold_interpretation": "城市广场"
+            }
+        ]
+    },
+    {
+        "idx": 238,
+        "image": "Noun_115.png",
+        "en": "How can we create a good vault?",
+        "standard_zh": "我们如何才能建造一个坚固的拱顶？",
+        "standard_resolved_ambiguity": "名词歧义——根据提示和图片，'vault' 指的是建筑中的拱顶结构。",
+        "group": 119,
+        "sense": [
+            {
+                "term": "vault",
+                "type": "lexical",
+                "gold_interpretation": "拱顶"
+            }
+        ]
+    },
+    {
+        "idx": 239,
+        "image": "Noun_116.png",
+        "en": "How can we create a good vault?",
+        "standard_zh": "我们如何才能建立一个好的金库？",
+        "standard_resolved_ambiguity": "‘vault’作为名词具有多个含义，包括金库和跳马。通过图片可知是金库，而非体操术语。",
+        "group": 119,
+        "sense": [
+            {
+                "term": "vault",
+                "type": "lexical",
+                "gold_interpretation": "金库"
+            }
+        ]
+    },
+    {
+        "idx": 240,
+        "image": "Noun_117.png",
+        "en": "How to deal with the virus?",
+        "standard_zh": "如何应对病毒？",
+        "standard_resolved_ambiguity": "名词歧义：通过图片确认病毒是指冠状病毒，结合提示明确应对措施是接种疫苗。",
+        "group": 120,
+        "sense": [
+            {
+                "term": "virus",
+                "type": "lexical",
+                "gold_interpretation": "冠状病毒"
+            }
+        ]
+    },
+    {
+        "idx": 241,
+        "image": "Noun_118.png",
+        "en": "How to deal with the virus?",
+        "standard_zh": "如何应对计算机病毒？",
+        "standard_resolved_ambiguity": "‘病毒’的歧义通过图像消解，图像中显示的是与黑客攻击和网络代码相关的内容，结合提示明确是指计算机病毒而非生物病毒。",
+        "group": 120,
+        "sense": [
+            {
+                "term": "virus",
+                "type": "lexical",
+                "gold_interpretation": "计算机病毒"
+            }
+        ]
+    },
+    {
+        "idx": 242,
+        "image": "Noun_123.png",
+        "en": "What is a beam used for?",
+        "standard_zh": "光束有什么用？",
+        "standard_resolved_ambiguity": "名词歧义，‘beam’通过图片和提示明确指的是光束，而非结构梁。",
+        "group": 121,
+        "sense": [
+            {
+                "term": "beam",
+                "type": "lexical",
+                "gold_interpretation": "光束"
+            }
+        ]
+    },
+    {
+        "idx": 243,
+        "image": "Noun_124.png",
+        "en": "What is a beam used for?",
+        "standard_zh": "梁用来做什么？",
+        "standard_resolved_ambiguity": "名词歧义，“beam”通过图像被确认是指建筑中的梁，而非其他意义（如光束），并与提示一致表明用于支撑结构。",
+        "group": 121,
+        "sense": [
+            {
+                "term": "beam",
+                "type": "lexical",
+                "gold_interpretation": "建筑中的梁"
+            }
+        ]
+    },
+    {
+        "idx": 244,
+        "image": "Noun_125.png",
+        "en": "What is the purpose of a branch?",
+        "standard_zh": "树枝的用途是什么？",
+        "standard_resolved_ambiguity": "消解了“branch”作为树枝或其他含义的歧义，图片和提示均指向树枝以及其功能。",
+        "group": 122,
+        "sense": [
+            {
+                "term": "branch",
+                "type": "lexical",
+                "gold_interpretation": "树枝"
+            }
+        ]
+    },
+    {
+        "idx": 245,
+        "image": "Noun_126.png",
+        "en": "What is the purpose of a branch?",
+        "standard_zh": "网点的用途是什么？",
+        "standard_resolved_ambiguity": "‘branch’的歧义通过图片和提示消解，明确指代银行网点的结构和职能，而非树枝或其他含义。",
+        "group": 122,
+        "sense": [
+            {
+                "term": "branch",
+                "type": "lexical",
+                "gold_interpretation": "银行网点"
+            }
+        ]
+    },
+    {
+        "idx": 246,
+        "image": "Noun_127.png",
+        "en": "What does a charge involve?",
+        "standard_zh": "收费涉及哪些内容？",
+        "standard_resolved_ambiguity": "‘Charge’具有多重含义，但通过图片和提示可确定此处指‘收费’。",
+        "group": 123,
+        "sense": [
+            {
+                "term": "charge",
+                "type": "lexical",
+                "gold_interpretation": "收费"
+            }
+        ]
+    },
+    {
+        "idx": 247,
+        "image": "Noun_128.png",
+        "en": "What does a charge involve?",
+        "standard_zh": "电荷涉及什么？",
+        "standard_resolved_ambiguity": "N/A",
+        "group": 123,
+        "sense": [
+            {
+                "term": "charge",
+                "type": "lexical",
+                "gold_interpretation": "电荷"
+            }
+        ]
+    },
+    {
+        "idx": 248,
+        "image": "Noun_129.png",
+        "en": "What does a check involve?",
+        "standard_zh": "检查包括哪些内容？",
+        "standard_resolved_ambiguity": "名词歧义：图像显示绿色勾选标志，结合提示确认‘检查’在此表示‘确认细节’。",
+        "group": 124,
+        "sense": [
+            {
+                "term": "check",
+                "type": "lexical",
+                "gold_interpretation": "确认细节"
+            }
+        ]
+    },
+    {
+        "idx": 249,
+        "image": "Noun_130.png",
+        "en": "What does a check involve?",
+        "standard_zh": "支票包括什么？",
+        "standard_resolved_ambiguity": "消解名词歧义：由于根据图像内容，此处‘check’指的是‘支票’，而不是‘检查’。支票的图像和背景表明问题涉及支付的细节。",
+        "group": 124,
+        "sense": [
+            {
+                "term": "check",
+                "type": "lexical",
+                "gold_interpretation": "支票"
+            }
+        ]
+    },
+    {
+        "idx": 252,
+        "image": "Noun_133.png",
+        "en": "What are the key components of a jam?",
+        "standard_zh": "果酱的主要成分是什么？",
+        "standard_resolved_ambiguity": "名词歧义，通过图片和说明提示明确‘jam’指的是果酱，而不是其他含义。",
+        "group": 126,
+        "sense": [
+            {
+                "term": "jam",
+                "type": "lexical",
+                "gold_interpretation": "果酱"
+            }
+        ]
+    },
+    {
+        "idx": 253,
+        "image": "Noun_134.png",
+        "en": "What are the key components of a jam?",
+        "standard_zh": "音乐和谐的关键组成部分是什么？",
+        "standard_resolved_ambiguity": "名词歧义，通过图像明确‘jam’指交通堵塞，但根据提示消解，实际指音乐中的‘jam’即即兴合奏。",
+        "group": 126,
+        "sense": [
+            {
+                "term": "jam",
+                "type": "lexical",
+                "gold_interpretation": "即兴合奏"
+            }
+        ]
+    },
+    {
+        "idx": 256,
+        "image": "Noun_141.png",
+        "en": "What does mint involve?",
+        "standard_zh": "薄荷有什么作用？",
+        "standard_resolved_ambiguity": "消解了“mint”是指草本植物薄荷以及其作为调味料的用法。图片显示了新鲜薄荷叶，暗示其在调味食品方面的用途。",
+        "group": 128,
+        "sense": [
+            {
+                "term": "mint",
+                "type": "lexical",
+                "gold_interpretation": "薄荷（草本植物及调味料）"
+            }
+        ]
+    },
+    {
+        "idx": 257,
+        "image": "Noun_142.png",
+        "en": "What does mint involve?",
+        "standard_zh": "铸币涉及什么？",
+        "standard_resolved_ambiguity": "名词歧义：图片显示铸币模具，结合提示明确‘mint’指的是生产货币的过程。",
+        "group": 128,
+        "sense": [
+            {
+                "term": "mint",
+                "type": "lexical",
+                "gold_interpretation": "生产货币的过程"
+            }
+        ]
+    },
+    {
+        "idx": 258,
+        "image": "Noun_147.png",
+        "en": "What does race involve?",
+        "standard_zh": "比赛涉及什么？",
+        "standard_resolved_ambiguity": "该句中的'noun ambiguity'在于'race'可能指种族或比赛。从图像中的田径跑道和运动员准备起跑的姿势可以明确'race'是指'比赛'，进一步细化到'跑步比赛'。",
+        "group": 129,
+        "sense": [
+            {
+                "term": "race",
+                "type": "lexical",
+                "gold_interpretation": "比赛（特别是跑步比赛）"
+            }
+        ]
+    },
+    {
+        "idx": 259,
+        "image": "Noun_148.png",
+        "en": "What does race involve?",
+        "standard_zh": "种族涉及哪些内容？",
+        "standard_resolved_ambiguity": "“Race”在此指代“种族”或“文化身份”，通过图片中的多族裔群体以及提示明确了是文化身份相关。",
+        "group": 129,
+        "sense": [
+            {
+                "term": "race",
+                "type": "lexical",
+                "gold_interpretation": "文化身份"
+            }
+        ]
+    },
+    {
+        "idx": 260,
+        "image": "Sentence_0.png",
+        "en": "He's going to break the record.",
+        "standard_zh": "他将打破纪录。",
+        "standard_resolved_ambiguity": "语用歧义：视觉证据表明该句指的是他即将创造新的体育纪录。",
+        "group": 130,
+        "sense": [
+            {
+                "term": "break the record",
+                "type": "pragmatic",
+                "gold_interpretation": "创造新的体育纪录"
+            }
+        ]
+    },
+    {
+        "idx": 261,
+        "image": "Sentence_1.png",
+        "en": "He's going to break the record.",
+        "standard_zh": "他要打碎唱片。",
+        "standard_resolved_ambiguity": "语用歧义，通过图片确认‘break the record’是指打碎唱片，而不是打破纪录。",
+        "group": 130,
+        "sense": [
+            {
+                "term": "break the record",
+                "type": "pragmatic",
+                "gold_interpretation": "打碎唱片"
+            }
+        ]
+    },
+    {
+        "idx": 266,
+        "image": "Sentence_5.png",
+        "en": "Let's wrap this up.",
+        "standard_zh": "让我们结束这个讨论。",
+        "standard_resolved_ambiguity": "通过图片可见，场景为会议中的握手环节，消解了‘wrap this up’的语用模糊，确定为‘结束讨论’的意思。",
+        "group": 133,
+        "sense": [
+            {
+                "term": "wrap this up",
+                "type": "pragmatic",
+                "gold_interpretation": "结束讨论"
+            }
+        ]
+    },
+    {
+        "idx": 267,
+        "image": "Sentence_6.png",
+        "en": "Let's wrap this up.",
+        "standard_zh": "我们来把礼物包好吧。",
+        "standard_resolved_ambiguity": "语用歧义——从图片中可以确定是指完成包裹礼物的动作。",
+        "group": 133,
+        "sense": [
+            {
+                "term": "wrap this up",
+                "type": "pragmatic",
+                "gold_interpretation": "完成包裹礼物的动作"
+            }
+        ]
+    },
+    {
+        "idx": 268,
+        "image": "Sentence_7.png",
+        "en": "Drop the ball.",
+        "standard_zh": "让新年倒计时的水晶球降下吧。",
+        "standard_resolved_ambiguity": "实践性歧义。图片显示了著名的新年倒计时水晶球，有助于确认为新年倒计时活动，而非其他引申意义。",
+        "group": 134,
+        "sense": [
+            {
+                "term": "Drop the ball",
+                "type": "pragmatic",
+                "gold_interpretation": "让新年倒计时的水晶球降下吧"
+            }
+        ]
+    },
+    {
+        "idx": 269,
+        "image": "Sentence_8.png",
+        "en": "Drop the ball.",
+        "standard_zh": "犯了一个错误。",
+        "standard_resolved_ambiguity": "语用歧义，通过图中展现的疑问号表达不确定性和困惑，明确了'Drop the ball'意为'犯错'。",
+        "group": 134,
+        "sense": [
+            {
+                "term": "Drop the ball",
+                "type": "pragmatic",
+                "gold_interpretation": "犯了一个错误"
+            }
+        ]
+    },
+    {
+        "idx": 272,
+        "image": "Sentence_13.png",
+        "en": "It's really cool.",
+        "standard_zh": "真的很冷。",
+        "standard_resolved_ambiguity": "语用歧义，通过图片中的雪地和人物穿着保暖的衣物（如手套、帽子）确认指的是天气寒冷。",
+        "group": 136,
+        "sense": [
+            {
+                "term": "cool",
+                "type": "pragmatic",
+                "gold_interpretation": "天气寒冷"
+            }
+        ]
+    },
+    {
+        "idx": 273,
+        "image": "Sentence_14.png",
+        "en": "It's really cool.",
+        "standard_zh": "这真的很酷。",
+        "standard_resolved_ambiguity": "语用层面的歧义，通过图像确认‘酷’的意思是‘令人印象深刻’。",
+        "group": 136,
+        "sense": [
+            {
+                "term": "cool",
+                "type": "pragmatic",
+                "gold_interpretation": "令人印象深刻"
+            }
+        ]
+    },
+    {
+        "idx": 276,
+        "image": "Sentence_19.png",
+        "en": "She's totally spaced out.",
+        "standard_zh": "她完全在发呆。",
+        "standard_resolved_ambiguity": "语用歧义：图片显示她盯着某处，手托着下巴，表明她在走神或神游，消解了可能的替代解释如‘喝醉了’或‘健忘了’。",
+        "group": 138,
+        "sense": [
+            {
+                "term": "spaced out",
+                "type": "pragmatic",
+                "gold_interpretation": "发呆"
+            }
+        ]
+    },
+    {
+        "idx": 277,
+        "image": "Sentence_20.png",
+        "en": "She's totally spaced out.",
+        "standard_zh": "她完全漂浮在太空中。",
+        "standard_resolved_ambiguity": "语用歧义：通过图像确认句子指的是她在太空中执行任务，而不是比喻意义的‘走神’。",
+        "group": 138,
+        "sense": [
+            {
+                "term": "spaced out",
+                "type": "pragmatic",
+                "gold_interpretation": "漂浮在太空中"
+            }
+        ]
+    },
+    {
+        "idx": 280,
+        "image": "Sentence_23.png",
+        "en": "It's all hands on deck.",
+        "standard_zh": "所有人都在参与任务。",
+        "standard_resolved_ambiguity": "语用歧义，通过图片确认该短语表示所有人需要参与任务，而不是其他可能的解释。",
+        "group": 140,
+        "sense": [
+            {
+                "term": "all hands on deck",
+                "type": "pragmatic",
+                "gold_interpretation": "所有人都在参与任务"
+            }
+        ]
+    },
+    {
+        "idx": 281,
+        "image": "Sentence_24.png",
+        "en": "It's all hands on deck.",
+        "standard_zh": "所有人都在甲板上工作。",
+        "standard_resolved_ambiguity": "语用歧义：图片显示每个人都在甲板上操作船的绳索，明确了指的是字面意义‘所有人都需要在甲板上’。",
+        "group": 140,
+        "sense": [
+            {
+                "term": "all hands on deck",
+                "type": "pragmatic",
+                "gold_interpretation": "所有人都需要在甲板上工作"
+            }
+        ]
+    },
+    {
+        "idx": 282,
+        "image": "Sentence_25.png",
+        "en": "You're in the driver's seat now.",
+        "standard_zh": "你现在掌控全局了。",
+        "standard_resolved_ambiguity": "语用歧义：图片中显示一群人站在背景中，而前景中的人显然处于领导或管理的地位，强调“掌控”的意义。",
+        "group": 141,
+        "sense": [
+            {
+                "term": "in the driver's seat",
+                "type": "pragmatic",
+                "gold_interpretation": "掌控全局"
+            }
+        ]
+    },
+    {
+        "idx": 283,
+        "image": "Sentence_26.png",
+        "en": "You're in the driver's seat now.",
+        "standard_zh": "你现在正坐在驾驶座上。",
+        "standard_resolved_ambiguity": "语用歧义，通过图片确认语句的含义是字面意思，即描述一个人实际坐在驾驶座上。",
+        "group": 141,
+        "sense": [
+            {
+                "term": "in the driver's seat",
+                "type": "pragmatic",
+                "gold_interpretation": "字面意思，即实际坐在驾驶座上"
+            }
+        ]
+    },
+    {
+        "idx": 286,
+        "image": "Sentence_29.png",
+        "en": "Drop me a line.",
+        "standard_zh": "给我发个消息。",
+        "standard_resolved_ambiguity": "语用歧义：图片显示了一名女子在使用手机，表明句子的意思是请求发送消息，而不是其他可能的比喻用法。",
+        "group": 143,
+        "sense": [
+            {
+                "term": "Drop me a line",
+                "type": "pragmatic",
+                "gold_interpretation": "给我发个消息"
+            }
+        ]
+    },
+    {
+        "idx": 287,
+        "image": "Sentence_30.png",
+        "en": "Drop me a line.",
+        "standard_zh": "放一根鱼线到水里。",
+        "standard_resolved_ambiguity": "语用歧义；图片显示了钓鱼相关的场景，明确了“line”指的是鱼线，不是其他含义。",
+        "group": 143,
+        "sense": [
+            {
+                "term": "Drop me a line",
+                "type": "pragmatic",
+                "gold_interpretation": "放一根鱼线到水里"
+            }
+        ]
+    },
+    {
+        "idx": 288,
+        "image": "Sentence_31.png",
+        "en": "Let's iron out the details.",
+        "standard_zh": "让我们解决一些细节问题。",
+        "standard_resolved_ambiguity": "语用歧义；通过图中多人协作解决问题的场景确定此处意为“解决（计划中的）小问题”。",
+        "group": 144,
+        "sense": [
+            {
+                "term": "iron out the details",
+                "type": "pragmatic",
+                "gold_interpretation": "解决（计划中的）小问题"
+            }
+        ]
+    },
+    {
+        "idx": 289,
+        "image": "Sentence_32.png",
+        "en": "Let's iron out the details.",
+        "standard_zh": "让我们把衣服熨平。",
+        "standard_resolved_ambiguity": "语用歧义：通过图片可以确认是指实际熨烫衣服，而非比喻意义的‘解决细节问题’。",
+        "group": 144,
+        "sense": [
+            {
+                "term": "iron out the details",
+                "type": "pragmatic",
+                "gold_interpretation": "把衣服熨平"
+            }
+        ]
+    },
+    {
+        "idx": 290,
+        "image": "Sentence_33.png",
+        "en": "Time to face the music.",
+        "standard_zh": "是时候面对批评了。",
+        "standard_resolved_ambiguity": "语用歧义，通过图片中的扬声器表达人物之间传递的批评语气来消解。",
+        "group": 145,
+        "sense": [
+            {
+                "term": "face the music",
+                "type": "pragmatic",
+                "gold_interpretation": "面对批评"
+            }
+        ]
+    },
+    {
+        "idx": 291,
+        "image": "Sentence_34.png",
+        "en": "Time to face the music.",
+        "standard_zh": "该是演奏音乐的时候了。",
+        "standard_resolved_ambiguity": "语用歧义，通过图片中展示的乐队演奏场景表明这里的意思是做好演奏乐器的准备，而非隐喻性的‘面对问题’。",
+        "group": 145,
+        "sense": [
+            {
+                "term": "face the music",
+                "type": "pragmatic",
+                "gold_interpretation": "做好演奏乐器的准备"
+            }
+        ]
+    },
+    {
+        "idx": 292,
+        "image": "Sentence_35.png",
+        "en": "I'm drawing a blank.",
+        "standard_zh": "我完全想不起来。",
+        "standard_resolved_ambiguity": "消解了语用歧义，通过图片确定此句表达“我试图记住某事但想不起来”的意思。",
+        "group": 146,
+        "sense": [
+            {
+                "term": "drawing a blank",
+                "type": "pragmatic",
+                "gold_interpretation": "我试图记住某事但想不起来"
+            }
+        ]
+    },
+    {
+        "idx": 293,
+        "image": "Sentence_36.png",
+        "en": "I'm drawing a blank.",
+        "standard_zh": "我正在空白画布上开始一幅新画。",
+        "standard_resolved_ambiguity": "语用歧义，图片显示了一个空白画布，与提示一致，指代开始作画。",
+        "group": 146,
+        "sense": [
+            {
+                "term": "drawing a blank",
+                "type": "pragmatic",
+                "gold_interpretation": "在空白画布上开始一幅新画"
+            }
+        ]
+    },
+    {
+        "idx": 294,
+        "image": "Sentence_37.png",
+        "en": "Hold your horses.",
+        "standard_zh": "别着急。",
+        "standard_resolved_ambiguity": "句子的实际含义是叫人保持耐心，而图片未表现任何要求减速或控制的情境，清楚表明此解释适用。",
+        "group": 147,
+        "sense": [
+            {
+                "term": "Hold your horses",
+                "type": "pragmatic",
+                "gold_interpretation": "别着急"
+            }
+        ]
+    },
+    {
+        "idx": 295,
+        "image": "Sentence_38.png",
+        "en": "Hold your horses.",
+        "standard_zh": "控制住马匹。",
+        "standard_resolved_ambiguity": "语用歧义，通过图片确认该短语特指在马术环境中控制马匹，而非比喻性表达‘冷静’或‘等一等’。",
+        "group": 147,
+        "sense": [
+            {
+                "term": "Hold your horses",
+                "type": "pragmatic",
+                "gold_interpretation": "控制住马匹"
+            }
+        ]
+    },
+    {
+        "idx": 298,
+        "image": "Sentence_41.png",
+        "en": "We're under fire.",
+        "standard_zh": "我们正遭到炮火攻击。",
+        "standard_resolved_ambiguity": "语用歧义被消解，图像显示火炮正在射击和火焰爆发，确认是遭到炮火攻击。",
+        "group": 149,
+        "sense": [
+            {
+                "term": "under fire",
+                "type": "pragmatic",
+                "gold_interpretation": "遭到炮火攻击"
+            }
+        ]
+    },
+    {
+        "idx": 299,
+        "image": "Sentence_42.png",
+        "en": "We're under fire.",
+        "standard_zh": "我们正面临严厉的批评。",
+        "standard_resolved_ambiguity": "语用歧义，通过图片中多人手指指责一个人解除了‘under fire’的比喻意义，确定为‘面临批评’。",
+        "group": 149,
+        "sense": [
+            {
+                "term": "under fire",
+                "type": "pragmatic",
+                "gold_interpretation": "面临批评"
+            }
+        ]
+    },
+    {
+        "idx": 300,
+        "image": "Sentence_43.png",
+        "en": "Put a pin in that.",
+        "standard_zh": "暂时搁置这个话题，稍后再讨论。",
+        "standard_resolved_ambiguity": "语用歧义：通过图片中的会议场景和提供的提示确认，‘Put a pin in that’意味着暂时搁置话题，稍后再讨论。",
+        "group": 150,
+        "sense": [
+            {
+                "term": "Put a pin in that",
+                "type": "pragmatic",
+                "gold_interpretation": "暂时搁置这个话题，稍后再讨论"
+            }
+        ]
+    },
+    {
+        "idx": 301,
+        "image": "Sentence_44.png",
+        "en": "Put a pin in that.",
+        "standard_zh": "往衣物上插一根装饰针。",
+        "standard_resolved_ambiguity": "语用歧义：图片显示手拿针插入物体，而用户提示指出歧义应解释为增加装饰性针的行为。",
+        "group": 150,
+        "sense": [
+            {
+                "term": "Put a pin in that",
+                "type": "pragmatic",
+                "gold_interpretation": "往衣物上插一根装饰针"
+            }
+        ]
+    },
+    {
+        "idx": 310,
+        "image": "Sentence_57.png",
+        "en": "This is ground-breaking.",
+        "standard_zh": "这是一个突破性的创新。",
+        "standard_resolved_ambiguity": "语境歧义：图片显示宇航员头盔与文字‘GROUND-BREAKING AI INNOVATIONS’，表明指的是技术创新的突破性成就。",
+        "group": 155,
+        "sense": [
+            {
+                "term": "ground-breaking",
+                "type": "pragmatic",
+                "gold_interpretation": "突破性的创新"
+            }
+        ]
+    },
+    {
+        "idx": 311,
+        "image": "Sentence_58.png",
+        "en": "This is ground-breaking.",
+        "standard_zh": "这是一个奠基仪式。",
+        "standard_resolved_ambiguity": "语用歧义，通过图片中几位身穿正装且戴着安全帽的人用铁锹铲土，可以看出这是一个建筑项目的开工奠基。从而确认句子的意思是‘建筑项目的开始’。",
+        "group": 155,
+        "sense": [
+            {
+                "term": "ground-breaking",
+                "type": "pragmatic",
+                "gold_interpretation": "建筑项目的开始"
+            }
+        ]
+    }
+]

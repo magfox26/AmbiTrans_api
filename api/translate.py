@@ -85,7 +85,6 @@ def call_api_standard(text, image, model_name):
     )
     return response.choices[0].message.content
 
-
 def call_api_stream(text, image, model_name):
     """流式调用方式"""
     reasoning_content = ""
@@ -125,7 +124,6 @@ def call_api_stream(text, image, model_name):
 
     return {"reasoning": reasoning_content, "answer": answer_content}
 
-
 def call_api(text, image, model_name):
     """根据模型类型选择调用方式"""
     if model_name in STREAM_MODELS:
@@ -135,7 +133,6 @@ def call_api(text, image, model_name):
     else:
         raise ValueError(f"Unknown model: {model_name}. Please add it to STANDARD_MODELS or STREAM_MODELS.")
 
-
 # ========================== 数据处理函数 ==========================
 def get_image_folder(filename):
     """根据文件名获取对应的图片文件夹"""
@@ -143,7 +140,6 @@ def get_image_folder(filename):
         return IMAGE_FOLDER_MMA
     else:
         return IMAGE_FOLDER_3AM
-
 
 def process_file(file_path, model_names, today):
     """处理单个数据文件"""
@@ -209,7 +205,6 @@ Now translate:
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(result, f, ensure_ascii=False, indent=4)
 
-
 # ========================== 主函数 ==========================
 def main():
     parser = argparse.ArgumentParser(description="Multi-model translation script")
@@ -247,7 +242,6 @@ def main():
             print(f"Warning: File not found: {file_path}")
 
     print("All processing completed!")
-
 
 if __name__ == "__main__":
     main()

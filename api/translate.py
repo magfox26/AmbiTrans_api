@@ -14,7 +14,13 @@ import datetime
 
 # ========================== 路径配置 ==========================
 # API配置文件路径
-API_CONFIG_PATH = '/mnt/workspace/xintong/api_key.txt'
+with open('/mnt/workspace/xintong/api_key.txt', 'r') as f:
+    lines = f.readlines()
+    
+API_KEY = lines[0].strip()
+BASE_URL = lines[1].strip()
+openai.api_key = API_KEY
+openai.base_url = BASE_URL
 
 # 数据文件路径
 DATA_DIR = '/mnt/workspace/xintong/pjh/JP_AmbiTrans/data/final/'
@@ -53,18 +59,6 @@ STANDARD_MODELS = [
 
 STREAM_MODELS = ['qvq-max']
 
-# ========================== API初始化 ==========================
-with open(API_CONFIG_PATH, 'r') as f:
-    lines = f.readlines()
-
-API_KEY = lines[0].strip()
-BASE_URL = lines[1].strip()
-
-openai.api_key = API_KEY
-openai.base_url = BASE_URL
-
-
-# ========================== 工具函数 ==========================
 def encode_image(image_path):
     """将图片编码为base64格式"""
     with open(image_path, "rb") as image_file:

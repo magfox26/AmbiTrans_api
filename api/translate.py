@@ -196,7 +196,7 @@ Now translate:
             item["output"] = outputs
             result.append(item.copy())
 
-        output_filename = f"{model_name}-translate-{today}"
+        output_filename = f"{model_name}-{today}"
         output_path = os.path.join(OUTPUT_BASE_DIR, f"{output_filename}_{os.path.basename(file_path)}")
 
         Path(OUTPUT_BASE_DIR).mkdir(parents=True, exist_ok=True)

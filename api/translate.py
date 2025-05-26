@@ -136,8 +136,8 @@ def get_image_folder(filename):
     else:
         return IMAGE_FOLDER_3AM
 
-def process_file(file_path, model_names, today):
-    print(f"Processing file: {file_path}")
+def process_single_file(file_path, model_key, model_name, today):
+    print(f"Processing file: {file_path} with model: {model_name}")
 
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -155,49 +155,45 @@ Now translate:
 
     sleep_times = [5, 10, 20, 40, 60]
 
-    for model_key in model_names:
-        model_name = MODELS[model_key]
-        print(f"Processing with model: {model_name}")
+    result = []
 
-        result = []
+    for item in tqdm.tqdm(data, desc=f"Processing {model_key} on {os.path.basename(file_path)}"):
+        text = user_prompt.format(en=item["en"])
+        idx = item["idx"]
+        image_path = os.path.join(image_folder, item["image"])
 
-        for item in tqdm.tqdm(data, desc=f"Processing {model_key}"):
-            text = user_prompt.format(en=item["en"])
-            idx = item["idx"]
-            image_path = os.path.join(image_folder, item["image"])
+        last_error = None
 
-            last_error = None
-
-            for sleep_time in sleep_times:
-                try:
-                    outputs = call_api(text, image_path, model_name)
+        for sleep_time in sleep_times:
+            try:
+                outputs = call_api(text, image_path, model_name)
+                break
+            except Exception as e:
+                last_error = e
+                print(f"Error on {idx}: {e}. Retry after sleeping {sleep_time} sec...")
+                if "Error code: 400" in str(e) or "Error code: 429" in str(e):
+                    time.sleep(sleep_time)
+                else:
+                    item["error"] = str(e)
+                    outputs = ""
                     break
-                except Exception as e:
-                    last_error = e
-                    print(f"Error on {idx}: {e}. Retry after sleeping {sleep_time} sec...")
-                    if "Error code: 400" in str(e) or "Error code: 429" in str(e):
-                        time.sleep(sleep_time)
-                    else:
-                        item["error"] = str(e)
-                        outputs = ""
-                        break
-            else:
-                print(f"Skipping {idx}")
-                outputs = ""
-                if last_error:
-                    item["error"] = str(last_error)
+        else:
+            print(f"Skipping {idx}")
+            outputs = ""
+            if last_error:
+                item["error"] = str(last_error)
 
-            item["result"] = outputs
-            result.append(item.copy())
+        item["result"] = outputs
+        result.append(item.copy())
 
-        output_filename = f"{model_key}-{today}"
-        output_path = os.path.join(OUTPUT_BASE_DIR, f"{output_filename}_{os.path.basename(file_path)}")
+    output_filename = f"{model_key}-{today}"
+    output_path = os.path.join(OUTPUT_BASE_DIR, f"{output_filename}_{os.path.basename(file_path)}")
 
-        Path(OUTPUT_BASE_DIR).mkdir(parents=True, exist_ok=True)
+    Path(OUTPUT_BASE_DIR).mkdir(parents=True, exist_ok=True)
 
-        print(f"Saving results to: {output_path}")
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(result, f, ensure_ascii=False, indent=4)
+    print(f"Saving results to: {output_path}")
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(result, f, ensure_ascii=False, indent=4)
 
 # ========================== 主函数 ==========================
 def main():
@@ -229,13 +225,21 @@ def main():
 
     data_files = [AMBI_NORMAL_FILE, SP_FILE, MMA_FILE]
 
-    for file_path in data_files:
-        if os.path.exists(file_path):
-            process_file(file_path, model_names, today)
-        else:
-            print(f"Warning: File not found: {file_path}")
+    for model_key in model_names:
+        model_name = MODELS[model_key]
+        print(f"\n{'='*50}")
+        print(f"Starting processing with model: {model_key} ({model_name})")
+        print(f"{'='*50}")
+        
+        for file_path in data_files:
+            if os.path.exists(file_path):
+                process_single_file(file_path, model_key, model_name, today)
+            else:
+                print(f"Warning: File not found: {file_path}")
+        
+        print(f"Completed processing with model: {model_key}")
 
-    print("All processing completed!")
+    print("\nAll processing completed!")
 
 if __name__ == "__main__":
     main()

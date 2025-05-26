@@ -9,5 +9,12 @@ api存放调用api的代码:
 choices=['gpt-4o', 'o1', 'qvq', 'qwen','gemini-2.0-flash', 'claude-3-7-sonnet','gemini-2.5-flash', 'gemini-2.5-pro','all']  
 
 ## 日志   
-### 2025年5月27日    
+### 2025年5月27日   
+第一个窗口运行：  
+`python translate.py --model gpt-4o o1 qwen`
 
+第二个窗口运行：  
+`python translate.py --model qvq gemini-2.0-flash gemini-2.5-flash`
+
+第三个窗口运行：
+`python translate.py --model gemini-2.5-pro claude-3-7-sonnet`

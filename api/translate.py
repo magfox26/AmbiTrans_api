@@ -193,7 +193,7 @@ Now translate:
                 if last_error:
                     item["error"] = str(last_error)
 
-            item["output"] = outputs
+            item["result"] = outputs
             result.append(item.copy())
 
         output_filename = f"{model_key}-{today}"

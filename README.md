@@ -14,14 +14,11 @@ choices=['gpt-4o', 'o1', 'qvq', 'qwen','gemini-2.0-flash', 'claude-3-7-sonnet','
 
 ## 日志  
 ### 2025年5月28日  
-重新跑关掉思考功能后的gemini-2.5-flash：  
+得到关掉思考功能后的gemini-2.5-flash结果：  
 `python translate_gemini-2.5-flash.py`  
 最终结果保存在'/mnt/workspace/xintong/lyx/results/AmbiTrans_api/gemini-2.5-flash'文件夹下
   
 ### 2025年5月27日  
-重新跑claude3.7的结果：  
-`python translate_claude.py`
-
 第一个窗口运行：  
 `python translate.py --model gpt-4o o1 qwen qvq`
 

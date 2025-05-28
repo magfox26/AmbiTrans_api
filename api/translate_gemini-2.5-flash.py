@@ -32,7 +32,7 @@ MMA_FILE = os.path.join(DATA_DIR, 'mma_test.json')
 IMAGE_FOLDER_3AM = '/mnt/workspace/xintong/ambi_plus/3am_images/'
 IMAGE_FOLDER_MMA = '/mnt/workspace/xintong/pjh/dataset/MMA/'
 
-# 输出路径 - 专门为gemini-2.5-flash设置
+# 输出路径
 OUTPUT_BASE_DIR = '/mnt/workspace/xintong/lyx/results/AmbiTrans_api/gemini-2.5-flash'
 
 # ========================== 模型配置 ==========================

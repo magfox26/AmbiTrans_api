@@ -4,7 +4,7 @@
 1.api存放调用api的代码:  
 [translate.py](https://github.com/magfox26/AmbiTrans_api/blob/main/api/translate.py)包括的模型：*gpt-4o-2024-11-20*，*o1-2024-12-17*，*qwen-vl-max*，*qvq-max*，*gemini-2.0-flash-001*，*gemini-2.5-flash-preview-04-17*，*gemini-2.5-pro-preview-05-06*  
 [translate_claude.py](https://github.com/magfox26/AmbiTrans_api/blob/main/api/translate_claude.py)包括的模型：*anthropic.claude-3-7-sonnet-20250219-v1:0*     
-[translate_gemini-2.5-flash.py](https://github.com/magfox26/AmbiTrans_api/blob/main/api/translate_gemini-2.5-flash.py)包括的模型：*gemini-2.5-flash-preview-04-17*
+[translate_gemini-2.5-flash.py](https://github.com/magfox26/AmbiTrans_api/blob/main/api/translate_gemini-2.5-flash.py)包括的模型：*gemini-2.5-flash-preview-04-17*  
 2.data存放数据  
 3.最终生成结果在'/mnt/workspace/xintong/lyx/results/AmbiTrans_api'下
 

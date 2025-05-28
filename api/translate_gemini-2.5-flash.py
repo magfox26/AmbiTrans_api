@@ -44,7 +44,7 @@ def encode_image(image_path):
 
 # ========================== Gemini 2.5 Flash API调用函数 ==========================
 def call_api_gemini_flash(text, image, model_name):
-    """专门为Gemini 2.5 Flash设计的API调用函数，关闭thinking功能"""
+    
     base64_image = encode_image(image)
     
     response = openai.chat.completions.create(
